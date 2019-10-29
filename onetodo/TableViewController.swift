@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class TableViewController: UITableViewController {
 	//	IBOutlets
 	
 
