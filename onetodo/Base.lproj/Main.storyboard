@@ -9,17 +9,16 @@
         <!--Table View Controller-->
         <scene sceneID="mtk-hp-Iei">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nYY-4P-oo9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="0Xd-wF-Gg2" customClass="TableViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fdb-S6-MjW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <textField key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="What's next?" borderStyle="roundedRect" placeholder="What's next?" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" id="y0X-4M-MRN">
+                        <textField key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=":)" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="Zsl-1h-HEj">
                             <rect key="frame" x="0.0" y="99.5" width="414" height="34"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits" keyboardType="alphabet" enablesReturnKeyAutomatically="YES"/>
+                            <textInputTraits key="textInputTraits"/>
                         </textField>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" tag="1" contentMode="scaleToFill" restorationIdentifier="cell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" reuseIdentifier="cell" editingAccessoryType="detailDisclosureButton" textLabel="YiC-mi-tFg" style="IBUITableViewCellStyleDefault" id="cef-ME-IsD" customClass="TableViewCell" customModule="onetodo" customModuleProvider="target">
@@ -45,7 +44,11 @@
                             <outlet property="delegate" destination="0Xd-wF-Gg2" id="1zZ-px-1yx"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="textField" destination="Zsl-1h-HEj" id="coD-WB-Zwe"/>
+                    </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nYY-4P-oo9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="267" y="114"/>
         </scene>

@@ -8,13 +8,20 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class TableViewController: UITableViewController, UITextFieldDelegate {
 	//	IBOutlets
+	@IBOutlet weak var tableViewCell: TableViewCell!
+	@IBOutlet weak var textField: UITextField!
+	
+	
+	
 	
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+		self.textField.delegate = self
+		
 	}
 	
 	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -26,11 +33,17 @@ class TableViewController: UITableViewController {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
 		
 		cell.backgroundColor = .white
-		cell.textLabel?.text = "Enter your task here."
+		cell.textLabel?.text = "Enter your task below."
 		
 		return cell
 	}
 	
+	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		self.view.endEditing(true)
+		return false
+	}
+	
+
 	//	IBActions
 	
 }	//	class ends
