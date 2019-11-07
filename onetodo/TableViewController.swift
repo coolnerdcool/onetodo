@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewController: UITableViewController, UITextFieldDelegate {
+class TableViewController: UITableViewController {
 	//	IBOutlets
 	@IBOutlet weak var tableViewCell: TableViewCell!
 	@IBOutlet weak var textField: UITextField!
@@ -19,8 +19,9 @@ class TableViewController: UITableViewController, UITextFieldDelegate {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
-		self.textField.delegate = self
+		
+		configureTextfield()
+		configureGesture()
 		
 	}
 	
@@ -38,13 +39,32 @@ class TableViewController: UITableViewController, UITextFieldDelegate {
 		return cell
 	}
 	
+	private func configureTextfield() {
+		self.textField.delegate = self
+		
+	}
+	
+	private func configureGesture() {
+		let tapGesture = UITapGestureRecognizer(target: self, action: #selector(TableViewController.handleTap))
+		view.addGestureRecognizer(tapGesture)
+		
+	}
+	
+	@objc func handleTap() {
+		view.endEditing(true)
+		
+	}
+
+	//	IBActions
+	
+}	//	class ends
+
+extension TableViewController: UITextFieldDelegate {
+	
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 		self.view.endEditing(true)
 		return false
 	}
 	
-
-	//	IBActions
-	
-}	//	class ends
+}	//	Extension ends
 
