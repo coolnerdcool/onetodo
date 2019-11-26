@@ -10,7 +10,10 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
+	//	IBOutlets.
+	@IBOutlet weak var tableViewCell: UIView!
+	
+	override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
@@ -20,5 +23,8 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+	
+	//	IBFunctions
+	
 
 }
