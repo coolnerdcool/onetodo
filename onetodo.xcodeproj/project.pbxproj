@@ -85,6 +85,9 @@
 		505030382368D7BB00E9F21A /* onetodo */ = {
 			isa = PBXGroup;
 			children = (
+				5083CC3A2390049300A21281 /* Model */,
+				5083CC392390048300A21281 /* View */,
+				5083CC382390047500A21281 /* Presenter */,
 				505030392368D7BB00E9F21A /* AppDelegate.swift */,
 				5050303B2368D7BB00E9F21A /* SceneDelegate.swift */,
 				5050303D2368D7BB00E9F21A /* TableViewController.swift */,
@@ -106,6 +109,27 @@
 				505030552368D7C000E9F21A /* Info.plist */,
 			);
 			path = onetodoTests;
+			sourceTree = "<group>";
+		};
+		5083CC382390047500A21281 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5083CC392390048300A21281 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5083CC3A2390049300A21281 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
