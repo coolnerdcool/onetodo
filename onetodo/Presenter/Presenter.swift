@@ -15,7 +15,14 @@ protocol taskProtocol {
 	
 }
 
+//	Properties keys for keychain.
+var kUSERTASK = "userTask"
+var kUSERTIME = "userTime"
+var kUSERNAME = "username"
+
 //	This class handles the information between the view and the logic of the app.
 class Presenter {
+	
+//	Method for handleing the user task and store with keychain.
 	
 }
