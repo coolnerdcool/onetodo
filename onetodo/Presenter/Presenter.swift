@@ -20,9 +20,19 @@ var kUSERTASK = "userTask"
 var kUSERTIME = "userTime"
 var kUSERNAME = "username"
 
-//	This class handles the information between the view and the logic of the app.
+// MARK: The methods inside here manage the way the task is stored and used.
 class Presenter {
 	
-//	Method for handleing the user task and store with keychain.
+	
+	
+	///	This method stores the task in the keychain.
+	func saveTask() {
+		
+	}
+	
+	/// This method retrieves the task information from the keychain.
+	func getTask() {
+		
+	}
 	
 }
