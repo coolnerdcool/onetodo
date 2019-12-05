@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AnimatedGradientView
 
 class ViewController: UIViewController {
 	//	IBOutlets
@@ -15,6 +16,11 @@ class ViewController: UIViewController {
 	//	Only call to methods here.
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		let gradient = AnimatedGradientView(frame: view.bounds)
+		gradient.colors = [[UIColor.blue, UIColor.red]]
+		gradient.direction = .up
+		view.addSubview(gradient)
 		
 	}
 	
