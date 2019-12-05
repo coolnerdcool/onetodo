@@ -1,18 +1,31 @@
 {
   "images" : [
     {
+      "idiom" : "iphone",
+      "filename" : "iPhone 11 Pro Max.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "iPhone 11 Pro Max@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "iPhone 11 Pro Max@3x.png",
+      "scale" : "3x"
+    },
+    {
       "idiom" : "universal",
       "filename" : "iPhone 11 Pro Maxgradient1x.png",
+      "unassigned" : true,
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "filename" : "iPhone 11 Pro Maxgradient.png",
+      "unassigned" : true,
       "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x"
     }
   ],
   "info" : {
