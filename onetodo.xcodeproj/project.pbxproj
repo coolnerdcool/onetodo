@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -75,7 +75,6 @@
 				2A4EBB45D05DC374C1787B7A /* Pods-onetodo.debug.xcconfig */,
 				9A683C66BCE99306A5DC821F /* Pods-onetodo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,6 +104,8 @@
 				5083CC3A2390049300A21281 /* Model */,
 				5083CC392390048300A21281 /* View */,
 				5083CC382390047500A21281 /* Presenter */,
+				505030472368D7C000E9F21A /* LaunchScreen.storyboard */,
+				5050303F2368D7BB00E9F21A /* Main.storyboard */,
 				505030392368D7BB00E9F21A /* AppDelegate.swift */,
 				5050303B2368D7BB00E9F21A /* SceneDelegate.swift */,
 				505030452368D7C000E9F21A /* Assets.xcassets */,
@@ -126,8 +127,6 @@
 		5083CC382390047500A21281 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				5050303D2368D7BB00E9F21A /* TableViewController.swift */,
-				5050305E236901E200E9F21A /* TableViewCell.swift */,
 				5054C7E1236A102800F87FA7 /* Presenter.swift */,
 			);
 			path = Presenter;
@@ -136,8 +135,8 @@
 		5083CC392390048300A21281 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				505030472368D7C000E9F21A /* LaunchScreen.storyboard */,
-				5050303F2368D7BB00E9F21A /* Main.storyboard */,
+				5050303D2368D7BB00E9F21A /* TableViewController.swift */,
+				5050305E236901E200E9F21A /* TableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
