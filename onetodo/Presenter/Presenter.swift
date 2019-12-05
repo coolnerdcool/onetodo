@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftKeychainWrapper
 
 protocol taskProtocol {
 	func createTas()
@@ -26,12 +27,16 @@ class Presenter {
 	
 	
 	///	This method stores the task in the keychain.
-	func saveTask() {
+	func saveTask(_ task: String) -> Bool {
+		let saveSuccessful: Bool = KeychainWrapper.standard.set(task, forKey: kUSERTASK)
+		return saveSuccessful
 		
 	}
 	
 	/// This method retrieves the task information from the keychain.
-	func getTask() {
+	func getTask(_ key: String) -> String {
+		let retrievedString: String? = KeychainWrapper.standard.string(forKey: key)
+		return retrievedString ?? ""
 		
 	}
 	
