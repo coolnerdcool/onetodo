@@ -8,46 +8,13 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class ViewController: UIViewController {
 	//	IBOutlets
-	@IBOutlet weak var tableViewCell: TableViewCell!
-	@IBOutlet weak var textField: UITextField!
+
 	
 	//	Only call to methods here.
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		configureTextfield()
-		configureGesture()
-		
-	}
-	
-	//	Only one cell is needed.
-	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		
-		return 1
-	}
-	
-	//	Set a simple cell as possible.
-	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
-		
-		cell.backgroundColor = .white
-		cell.textLabel?.text = "Enter your task below."
-		
-		return cell
-	}
-	
-	//	User enters task here.
-	private func configureTextfield() {
-		self.textField.delegate = self
-		
-	}
-	
-	//	Dissmiss keyboard.
-	private func configureGesture() {
-		let tapGesture = UITapGestureRecognizer(target: self, action: #selector(TableViewController.handleTap))
-		view.addGestureRecognizer(tapGesture)
 		
 	}
 	
@@ -56,17 +23,27 @@ class TableViewController: UITableViewController {
 		view.endEditing(true)
 		
 	}
+	
+//	private func updateLabel() {
+//		switch childForStatusBarStyle!.preferredStatusBarStyle {
+//		case .default:
+//			label.text = "dark"
+//		case .lightContent:
+//			label.text = "light"
+//		@unknown default:
+//			label.text = "unknown color"
+//		}
+//	}
+	
+	override func setNeedsStatusBarAppearanceUpdate() {
+		super.setNeedsStatusBarAppearanceUpdate()
+		loadViewIfNeeded()
+		
+	}
 
 	//	IBActions
 	
 }	//	class ends
 
-extension TableViewController: UITextFieldDelegate {
-	
-	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-		self.view.endEditing(true)
-		return false
-	}
-	
-}	//	Extension ends
+//	Extension ends
 

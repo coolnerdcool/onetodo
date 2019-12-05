@@ -15,7 +15,6 @@
 		505030462368D7C000E9F21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505030452368D7C000E9F21A /* Assets.xcassets */; };
 		505030492368D7C000E9F21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505030472368D7C000E9F21A /* LaunchScreen.storyboard */; };
 		505030542368D7C000E9F21A /* onetodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030532368D7C000E9F21A /* onetodoTests.swift */; };
-		5050305F236901E200E9F21A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050305E236901E200E9F21A /* TableViewCell.swift */; };
 		5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054C7E1236A102800F87FA7 /* Presenter.swift */; };
 		83E29E59FEA914AEC52CEE99 /* Pods_onetodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E4E4440B6006E6DB7E4450 /* Pods_onetodo.framework */; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		5050304F2368D7C000E9F21A /* onetodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onetodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030532368D7C000E9F21A /* onetodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onetodoTests.swift; sourceTree = "<group>"; };
 		505030552368D7C000E9F21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5050305E236901E200E9F21A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5054C7E1236A102800F87FA7 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		9A683C66BCE99306A5DC821F /* Pods-onetodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.release.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				5050303D2368D7BB00E9F21A /* TableViewController.swift */,
-				5050305E236901E200E9F21A /* TableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,7 +299,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */,
-				5050305F236901E200E9F21A /* TableViewCell.swift in Sources */,
 				505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */,
 				5050303E2368D7BB00E9F21A /* TableViewController.swift in Sources */,
 				5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */,
