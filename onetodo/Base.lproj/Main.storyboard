@@ -14,13 +14,30 @@
                     <view key="view" contentMode="scaleToFill" id="kn5-cc-L1k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mTs-wr-w2N">
+                                <rect key="frame" x="20" y="436" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mTs-wr-w2N" secondAttribute="height" multiplier="11:1" id="ec5-Vy-SfT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mTs-wr-w2N" firstAttribute="centerX" secondItem="jFK-lU-cPX" secondAttribute="centerX" id="Rbm-Xf-bbU"/>
+                            <constraint firstItem="mTs-wr-w2N" firstAttribute="centerY" secondItem="jFK-lU-cPX" secondAttribute="centerY" id="cCN-mY-8KJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jFK-lU-cPX"/>
                     </view>
+                    <connections>
+                        <outlet property="taskTextField" destination="mTs-wr-w2N" id="Pmp-Wt-qcn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="751-as-bjd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60" y="155"/>
+            <point key="canvasLocation" x="59.420289855072468" y="154.6875"/>
         </scene>
     </scenes>
 </document>

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030392368D7BB00E9F21A /* AppDelegate.swift */; };
 		5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303B2368D7BB00E9F21A /* SceneDelegate.swift */; };
-		5050303E2368D7BB00E9F21A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303D2368D7BB00E9F21A /* TableViewController.swift */; };
+		5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303D2368D7BB00E9F21A /* ViewController.swift */; };
 		505030412368D7BB00E9F21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5050303F2368D7BB00E9F21A /* Main.storyboard */; };
 		505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 505030422368D7BB00E9F21A /* onetodo.xcdatamodeld */; };
 		505030462368D7C000E9F21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505030452368D7C000E9F21A /* Assets.xcassets */; };
@@ -35,7 +35,7 @@
 		505030362368D7BB00E9F21A /* onetodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onetodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030392368D7BB00E9F21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5050303B2368D7BB00E9F21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5050303D2368D7BB00E9F21A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5050303D2368D7BB00E9F21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		505030402368D7BB00E9F21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		505030432368D7BB00E9F21A /* onetodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = onetodo.xcdatamodel; sourceTree = "<group>"; };
 		505030452368D7C000E9F21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		5083CC392390048300A21281 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5050303D2368D7BB00E9F21A /* TableViewController.swift */,
+				5050303D2368D7BB00E9F21A /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,7 +300,7 @@
 			files = (
 				5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */,
 				505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */,
-				5050303E2368D7BB00E9F21A /* TableViewController.swift in Sources */,
+				5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */,
 				5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */,
 				5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */,
 			);

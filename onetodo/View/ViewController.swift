@@ -11,7 +11,8 @@ import AnimatedGradientView
 
 class ViewController: UIViewController {
 	//	IBOutlets
-
+	@IBOutlet weak var taskTextField: UITextField!
+	
 	
 	//	Only call to methods here.
 	override func viewDidLoad() {
