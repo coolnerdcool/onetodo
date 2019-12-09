@@ -18,10 +18,7 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		let gradient = AnimatedGradientView(frame: view.bounds)
-		gradient.colors = [[UIColor.blue, UIColor.red]]
-		gradient.direction = .up
-		view.addSubview(gradient)
+		createGradient()
 		
 	}
 	
@@ -41,6 +38,15 @@ class ViewController: UIViewController {
 //			label.text = "unknown color"
 //		}
 //	}
+	
+	///	Render gradient background.
+	func createGradient() {
+		let gradient = AnimatedGradientView(frame: view.bounds)
+		gradient.colors = [[UIColor.blue, UIColor.red]]
+		gradient.direction = .up
+		view.addSubview(gradient)
+		
+	}
 	
 	override func setNeedsStatusBarAppearanceUpdate() {
 		super.setNeedsStatusBarAppearanceUpdate()
