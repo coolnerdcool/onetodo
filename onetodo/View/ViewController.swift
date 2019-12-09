@@ -28,16 +28,7 @@ class ViewController: UIViewController {
 		
 	}
 	
-//	private func updateLabel() {
-//		switch childForStatusBarStyle!.preferredStatusBarStyle {
-//		case .default:
-//			label.text = "dark"
-//		case .lightContent:
-//			label.text = "light"
-//		@unknown default:
-//			label.text = "unknown color"
-//		}
-//	}
+
 	
 	///	Render gradient background.
 	func createGradient() {
