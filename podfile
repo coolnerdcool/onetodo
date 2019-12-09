@@ -1,0 +1,9 @@
+use_frameworks!
+platform :ios, '9.0'
+
+target 'onetodo' do
+   pod 'SwiftKeychainWrapper'
+   pod 'FoldingCell'
+   pod 'Bartinter'
+   pod "AnimatedGradientView"
+end
