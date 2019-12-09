@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 		
 	}
 	
-
+//Make sure all changes have been pulled from the remote repository and try again.
 	
 	///	Render gradient background.
 	func createGradient() {
