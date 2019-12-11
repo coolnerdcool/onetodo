@@ -9,6 +9,10 @@
 import UIKit
 import AnimatedGradientView
 
+// TODO: -	Declare presenter.
+// TODO: -	Declare protocol.
+
+
 class ViewController: UIViewController {
 	//	IBOutlets
 	@IBOutlet weak var taskTextField: UITextField!
