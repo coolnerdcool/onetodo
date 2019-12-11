@@ -11,17 +11,18 @@
         <scene sceneID="5w6-FC-vYQ">
             <objects>
                 <viewController id="L3e-4f-0za" customClass="ViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kn5-cc-L1k">
+                    <view key="view" contentMode="scaleToFill" id="kn5-cc-L1k" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="What do you want to do?" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mTs-wr-w2N">
-                                <rect key="frame" x="20" y="436" width="374" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="What do you want to do?" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mTs-wr-w2N">
+                                <rect key="frame" x="105.5" y="444" width="203.5" height="18.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mTs-wr-w2N" secondAttribute="height" multiplier="11:1" id="ec5-Vy-SfT"/>
                                 </constraints>
+                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

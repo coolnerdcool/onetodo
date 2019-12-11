@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import Foundation
 import AnimatedGradientView
 
-class ViewController: UIViewController, taskProtocol{
+class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	//	IBOutlets
 	@IBOutlet weak var taskTextField: UITextField!
 	private let taskPresenter = Presenter()
@@ -19,7 +20,9 @@ class ViewController: UIViewController, taskProtocol{
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		self.taskPresenter.attachView(view: self)
+		self.taskTextField.delegate = self
 		createGradient()
+		setTextField()
 		
 	}
 	
@@ -30,15 +33,29 @@ class ViewController: UIViewController, taskProtocol{
 	}
 	
 	func setTextField() {
-		
+		taskTextField.text = "Enter your task here:"
+	
 	}
 	
 	///	Render gradient background.
 	func createGradient() {
-		let gradient = AnimatedGradientView(frame: view.bounds)
-		gradient.colors = [[UIColor.blue, UIColor.red]]
-		gradient.direction = .up
-		view.addSubview(gradient)
+//		let gradient = AnimatedGradientView(frame: view.bounds)
+//		gradient.colors = [[UIColor.blue, UIColor.red]]
+//		gradient.direction = .up
+//		view.addSubview(gradient)
+		
+		let gradientLayer = CAGradientLayer()
+		gradientLayer.colors = [UIColor.red, UIColor.blue]
+		gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
+		gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)
+		gradientLayer.frame = CGRect(origin: CGPoint.zero, size: (view?.bounds.size)!)
+		view.layer.addSublayer(gradientLayer)
+		
+	}
+	
+	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		self.view.endEditing(true)
+		return false
 		
 	}
 	
