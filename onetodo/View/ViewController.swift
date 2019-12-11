@@ -9,10 +9,6 @@
 import UIKit
 import AnimatedGradientView
 
-// TODO: -	Declare presenter.
-// TODO: -	Declare protocol.
-
-
 class ViewController: UIViewController, taskProtocol{
 	//	IBOutlets
 	@IBOutlet weak var taskTextField: UITextField!
@@ -33,6 +29,9 @@ class ViewController: UIViewController, taskProtocol{
 		
 	}
 	
+	func setTextField() {
+		
+	}
 	
 	///	Render gradient background.
 	func createGradient() {
@@ -43,19 +42,19 @@ class ViewController: UIViewController, taskProtocol{
 		
 	}
 	
-	override func setNeedsStatusBarAppearanceUpdate() {
-		super.setNeedsStatusBarAppearanceUpdate()
-		loadViewIfNeeded()
-		
-	}
-	
-	func createTas(){
+	func createTask(){
 		
 	}
 	func editTask(){
 		
 	}
 	func deleteTask(){
+		
+	}
+	
+	override func setNeedsStatusBarAppearanceUpdate() {
+		super.setNeedsStatusBarAppearanceUpdate()
+		loadViewIfNeeded()
 		
 	}
 	

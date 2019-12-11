@@ -10,7 +10,7 @@ import Foundation
 import SwiftKeychainWrapper
 
 protocol taskProtocol: AnyObject{
-	func createTas()
+	func createTask()
 	func editTask()
 	func deleteTask()
 	
