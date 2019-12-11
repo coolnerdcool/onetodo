@@ -9,7 +9,7 @@
 import Foundation
 import SwiftKeychainWrapper
 
-protocol taskProtocol {
+protocol taskProtocol: AnyObject{
 	func createTas()
 	func editTask()
 	func deleteTask()
@@ -24,7 +24,15 @@ var kUSERNAME = "username"
 // MARK: The methods inside here manage the way the task is stored and used.
 class Presenter {
 	
+	weak private var view: taskProtocol?
 	
+	func attachView(view: taskProtocol) {
+		self.view = view
+	}
+	
+	func detachView() {
+		self.view = nil
+	}
 	
 	///	This method stores the task in the keychain.
 	func saveTask(_ task: String) -> Bool {

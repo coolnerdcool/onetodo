@@ -13,15 +13,16 @@ import AnimatedGradientView
 // TODO: -	Declare protocol.
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, taskProtocol{
 	//	IBOutlets
 	@IBOutlet weak var taskTextField: UITextField!
+	private let taskPresenter = Presenter()
 	
 	
 	//	Only call to methods here.
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
+		self.taskPresenter.attachView(view: self)
 		createGradient()
 		
 	}
@@ -47,7 +48,17 @@ class ViewController: UIViewController {
 		loadViewIfNeeded()
 		
 	}
-
+	
+	func createTas(){
+		
+	}
+	func editTask(){
+		
+	}
+	func deleteTask(){
+		
+	}
+	
 	//	IBActions
 	
 }	//	class ends
