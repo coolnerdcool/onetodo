@@ -32,6 +32,7 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		
 	}
 	
+	///	Prepare taskTexField to display properly.
 	func setTextField() {
 		taskTextField.text = "Enter your task here:"
 	
@@ -39,10 +40,6 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	
 	///	Render gradient background.
 	func createGradient() {
-//		let gradient = AnimatedGradientView(frame: view.bounds)
-//		gradient.colors = [[UIColor.blue, UIColor.red]]
-//		gradient.direction = .up
-//		view.addSubview(gradient)
 		
 		let gradientLayer = CAGradientLayer()
 		gradientLayer.colors = [UIColor.red, UIColor.blue]
@@ -53,19 +50,25 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		
 	}
 	
+	///	Hide keyboard after user press return key.
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 		self.view.endEditing(true)
 		return false
 		
 	}
 	
-	func createTask(){
+	///	Manages task created by the user. Triggers a chain of actions after timer starts.
+	func createTask() {
 		
 	}
-	func editTask(){
+	
+	///	Mostly for pause.
+	func editTask() {
 		
 	}
-	func deleteTask(){
+	
+	///	Delete task restarts timer or something like that.
+	func deleteTask() {
 		
 	}
 	
@@ -76,6 +79,8 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	}
 	
 	//	IBActions
+	
+	// TODO: - Implement action for taskTextField.
 	
 }	//	class ends
 
