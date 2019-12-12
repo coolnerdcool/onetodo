@@ -21,6 +21,7 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		super.viewDidLoad()
 		self.taskPresenter.attachView(view: self)
 		self.taskTextField.delegate = self
+		self.hideKeyboardWhenTappedAround()
 		createGradient()
 		setTextField()
 		
@@ -85,4 +86,20 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 }	//	class ends
 
 //	Extension ends
+
+extension UIViewController {
+	
+	func hideKeyboardWhenTappedAround() {
+		let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+		tap.cancelsTouchesInView = false
+		view.addGestureRecognizer(tap)
+		
+	}
+	
+	@objc func dismissKeyboard() {
+		view.endEditing(true)
+		
+	}
+	
+}
 
