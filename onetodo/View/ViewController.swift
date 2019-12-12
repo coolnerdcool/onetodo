@@ -81,11 +81,9 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	
 	//	IBActions
 	
-	// TODO: - Implement action for taskTextField.
-	
-}	//	class ends
+}
 
-//	Extension ends
+// MARK: - Extensions
 
 extension UIViewController {
 	
