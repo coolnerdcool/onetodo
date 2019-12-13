@@ -16,13 +16,8 @@ protocol taskProtocol: AnyObject{
 	
 }
 
-//	Properties keys for keychain.
-var kUSERTASK = "userTask"
-var kUSERTIME = "userTime"
-var kUSERNAME = "username"
-
 // MARK: The methods inside here manage the way the task is stored and used.
-class Presenter {
+class Presenter: taskProtocol {
 	
 	weak private var view: taskProtocol?
 	
@@ -34,18 +29,17 @@ class Presenter {
 		self.view = nil
 	}
 	
-	///	This method stores the task in the keychain.
-	func saveTask(_ task: String) -> Bool {
-		let saveSuccessful: Bool = KeychainWrapper.standard.set(task, forKey: kUSERTASK)
-		return saveSuccessful
+	func createTask() {
 		
 	}
 	
-	/// This method retrieves the task information from the keychain.
-	func getTask(_ key: String) -> String {
-		let retrievedString: String? = KeychainWrapper.standard.string(forKey: key)
-		return retrievedString ?? ""
+	func editTask() {
 		
 	}
+	
+	func deleteTask() {
+		
+	}
+
 	
 }

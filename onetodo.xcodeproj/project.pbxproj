@@ -16,6 +16,7 @@
 		505030492368D7C000E9F21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505030472368D7C000E9F21A /* LaunchScreen.storyboard */; };
 		505030542368D7C000E9F21A /* onetodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030532368D7C000E9F21A /* onetodoTests.swift */; };
 		5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054C7E1236A102800F87FA7 /* Presenter.swift */; };
+		505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505772E923A34E6B0016CF47 /* TaskModel.swift */; };
 		83E29E59FEA914AEC52CEE99 /* Pods_onetodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E4E4440B6006E6DB7E4450 /* Pods_onetodo.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		505030532368D7C000E9F21A /* onetodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onetodoTests.swift; sourceTree = "<group>"; };
 		505030552368D7C000E9F21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5054C7E1236A102800F87FA7 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		505772E923A34E6B0016CF47 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		9A683C66BCE99306A5DC821F /* Pods-onetodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.release.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,7 @@
 		5083CC3A2390049300A21281 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				505772E923A34E6B0016CF47 /* TaskModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */,
 				5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */,
 				505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */,
 				5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */,
