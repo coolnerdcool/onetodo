@@ -30,11 +30,11 @@ class Presenter: taskProtocol {
 	}
 	
 	func createTask() {
-		
+		debugPrint("createTask works.")
 	}
 	
 	func editTask() {
-		
+		debugPrint("editTask works")
 	}
 	
 	func deleteTask() {

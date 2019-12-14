@@ -12,6 +12,7 @@ import AnimatedGradientView
 
 class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	//	IBOutlets
+	           
 	@IBOutlet weak var taskTextField: UITextField!
 	private let taskPresenter = Presenter()
 	

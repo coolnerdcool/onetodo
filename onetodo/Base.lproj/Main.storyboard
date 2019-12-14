@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L3e-4f-0za">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="swW-AX-wGq">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="What do you want to do?" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mTs-wr-w2N">
-                                <rect key="frame" x="105.5" y="444" width="203.5" height="18.5"/>
+                                <rect key="frame" x="105.5" y="466" width="203.5" height="18.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mTs-wr-w2N" secondAttribute="height" multiplier="11:1" id="ec5-Vy-SfT"/>
                                 </constraints>
@@ -32,11 +32,30 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jFK-lU-cPX"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tib-8j-gn9"/>
                     <connections>
                         <outlet property="taskTextField" destination="mTs-wr-w2N" id="Pmp-Wt-qcn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="751-as-bjd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969.56521739130437" y="154.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RMQ-dV-vIT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="swW-AX-wGq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fla-df-8er">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L3e-4f-0za" kind="relationship" relationship="rootViewController" id="PC9-tI-7Rw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sW9-cb-wQC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="59.420289855072468" y="154.6875"/>
         </scene>
