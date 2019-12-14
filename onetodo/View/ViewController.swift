@@ -23,6 +23,13 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		self.taskPresenter.attachView(view: self)
 		self.taskTextField.delegate = self
 		self.hideKeyboardWhenTappedAround()
+		
+		// Next 4 lines set the NavigationController transparent.
+		self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+		self.navigationController?.navigationBar.shadowImage = UIImage()
+		self.navigationController?.navigationBar.isTranslucent = true
+		self.navigationController?.view.backgroundColor = .clear
+		
 		createGradient()
 		setTextField()
 		
