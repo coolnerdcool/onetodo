@@ -88,6 +88,10 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	}
 	
 	//	IBActions
+	///	Manage users task.
+	@IBAction func sendTask(_ sender: Any) {
+		
+	}
 	
 }
 
