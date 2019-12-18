@@ -69,6 +69,7 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	
 	///	Manages task created by the user. Triggers a chain of actions after timer starts.
 	func createTask() {
+		//	Store the user data in the keychain.
 		guard let newTask = taskTextField.text else {return}
 		KeychainWrapper.standard.set(newTask, forKey: "kUSERTASK")
 		
@@ -93,7 +94,17 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	
 	//	IBActions
 	///	Manage users task.
-	@IBAction func saveTask(_ sender: UITextField) {
+	@objc @IBAction func saveTask(_ sender: UITextField) {
+		if sender.text == "" {
+			debugPrint("ERROR: No empty string as task.")
+			//	Show alert to user telling to enter correct task.
+		} else {
+			//	Call protocol method to store in the keychain. Use conditional to avoid error.
+
+			createTask()
+		}
+		
+		resignFirstResponder()
 		print("Sender tag: ", sender.tag)
 	}
 	
