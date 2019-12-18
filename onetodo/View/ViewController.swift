@@ -9,10 +9,11 @@
 import UIKit
 import Foundation
 import AnimatedGradientView
+import SwiftKeychainWrapper
 
 class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
+	
 	//	IBOutlets
-	           
 	@IBOutlet weak var taskTextField: UITextField!
 	private let taskPresenter = Presenter()
 	
@@ -68,6 +69,9 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	
 	///	Manages task created by the user. Triggers a chain of actions after timer starts.
 	func createTask() {
+		guard let newTask = taskTextField.text else {return}
+		KeychainWrapper.standard.set(newTask, forKey: "kUSERTASK")
+		
 		
 	}
 	
@@ -89,8 +93,8 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	
 	//	IBActions
 	///	Manage users task.
-	@IBAction func sendTask(_ sender: Any) {
-		
+	@IBAction func saveTask(_ sender: UITextField) {
+		print("Sender tag: ", sender.tag)
 	}
 	
 }
