@@ -25,7 +25,6 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                 <connections>
                                     <action selector="saveTask:" destination="L3e-4f-0za" eventType="editingDidEnd" id="lKp-B9-eCE"/>
-                                    <action selector="sendTask:" destination="L3e-4f-0za" eventType="editingDidEnd" id="kft-mE-goT"/>
                                 </connections>
                             </textField>
                         </subviews>
