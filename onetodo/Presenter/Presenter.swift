@@ -31,13 +31,17 @@ class Presenter: taskProtocol {
 	
 	func createTask() {
 		debugPrint("createTask works.")
+		//	Store the task in locally.
 	}
 	
 	func editTask() {
 		debugPrint("editTask works")
+		//	Replace the task inside the keychain.
+		//	Make sure the task place remains the same.
 	}
 	
 	func deleteTask() {
+		//	Remove the task from the keychain.
 		
 	}
 
