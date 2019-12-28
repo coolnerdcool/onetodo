@@ -37,8 +37,7 @@ class Presenter: taskProtocol {
 	
 	func editTask() {
 		debugPrint("editTask works")
-		//	Replace the task inside the keychain.
-		//	Make sure the task place remains the same.
+
 	}
 	
 	func deleteTask() {
