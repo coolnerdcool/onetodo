@@ -31,8 +31,7 @@ class Presenter: taskProtocol {
 	
 	func createTask() {
 		debugPrint("createTask works.")
-		//	Store the task in locally.
-		//	Use the keychain to it.
+
 	}
 	
 	func editTask() {
