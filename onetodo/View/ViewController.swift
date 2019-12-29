@@ -77,6 +77,7 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		
 	}
 	
+	// TODO: - What's the purpose of this function?
 	///	Mostly for pause.
 	func editTask() {
 		
