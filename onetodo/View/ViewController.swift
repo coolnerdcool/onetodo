@@ -27,9 +27,9 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		
 		// Next 4 lines set the NavigationController transparent.
 		self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-		self.navigationController?.navigationBar.shadowImage = UIImage()
+		self.navigationController?.navigationBar.shadowImage   = UIImage()
 		self.navigationController?.navigationBar.isTranslucent = true
-		self.navigationController?.view.backgroundColor = .clear
+		self.navigationController?.view.backgroundColor        = .clear
 		
 		createGradient()
 		setTextField()
@@ -51,25 +51,26 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 	///	Render gradient background.
 	func createGradient() {
 		
-		let gradientLayer = CAGradientLayer()
-		gradientLayer.colors = [UIColor.red, UIColor.blue]
+		let gradientLayer        = CAGradientLayer()
+		gradientLayer.colors     = [UIColor.red, UIColor.blue]
 		gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
-		gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)
-		gradientLayer.frame = CGRect(origin: CGPoint.zero, size: (view?.bounds.size)!)
+		gradientLayer.endPoint   = CGPoint(x: 1.0, y: 1.0)
+		gradientLayer.frame      = CGRect(origin: CGPoint.zero, size: (view?.bounds.size)!)
 		view.layer.addSublayer(gradientLayer)
 		
 	}
 	
 	///	Hide keyboard after user press return key.
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		
+		debugPrint("Textfield:", textField.text)
 		self.view.endEditing(true)
 		return false
-		
 	}
 	
 	///	Manages task created by the user. Triggers a chain of actions after timer starts.
 	func createTask() {
-		//	Store the user data in the keychain.
+		//	Store the data in textField into the keychain.
 		guard let newTask = taskTextField.text else {return}
 		KeychainWrapper.standard.set(newTask, forKey: "kUSERTASK")
 		
