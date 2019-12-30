@@ -27,9 +27,21 @@
                                     <action selector="saveTask:" destination="L3e-4f-0za" eventType="editingDidEnd" id="lKp-B9-eCE"/>
                                 </connections>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TaskLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gW-0g-lWX">
+                                <rect key="frame" x="105" y="129" width="204" height="59.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2gW-0g-lWX" secondAttribute="height" multiplier="203:59" id="bdj-mm-bua"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="jFK-lU-cPX" firstAttribute="trailing" secondItem="2gW-0g-lWX" secondAttribute="trailing" constant="105" id="2t3-yr-BT1"/>
+                            <constraint firstItem="2gW-0g-lWX" firstAttribute="top" secondItem="jFK-lU-cPX" secondAttribute="top" constant="41" id="33U-uN-UBw"/>
+                            <constraint firstItem="2gW-0g-lWX" firstAttribute="centerX" secondItem="jFK-lU-cPX" secondAttribute="centerX" id="H1g-Bx-YfS"/>
                             <constraint firstItem="mTs-wr-w2N" firstAttribute="centerX" secondItem="jFK-lU-cPX" secondAttribute="centerX" id="Rbm-Xf-bbU"/>
                             <constraint firstItem="mTs-wr-w2N" firstAttribute="centerY" secondItem="jFK-lU-cPX" secondAttribute="centerY" id="cCN-mY-8KJ"/>
                         </constraints>
@@ -37,6 +49,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="tib-8j-gn9"/>
                     <connections>
+                        <outlet property="taskLabel" destination="2gW-0g-lWX" id="GSE-qB-FAd"/>
                         <outlet property="taskTextField" destination="mTs-wr-w2N" id="Pmp-Wt-qcn"/>
                     </connections>
                 </viewController>

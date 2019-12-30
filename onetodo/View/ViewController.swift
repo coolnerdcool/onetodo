@@ -11,10 +11,13 @@ import Foundation
 import AnimatedGradientView
 import SwiftKeychainWrapper
 
-class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
+class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	
 	//	IBOutlets
 	@IBOutlet weak var taskTextField: UITextField!
+	@IBOutlet weak var taskLabel: UILabel!
+	
+	//	Properties
 	private let taskPresenter = Presenter()
 	
 	
@@ -74,9 +77,9 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		guard let newTask = taskTextField.text else {return}
 		KeychainWrapper.standard.set(newTask, forKey: "kUSERTASK")
 		
-		
 	}
 	
+	// TODO: - What's the purpose of this function?
 	///	Mostly for pause.
 	func editTask() {
 		
@@ -87,6 +90,7 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		
 	}
 	
+	//	Makes the navigation controller bar clear.
 	override func setNeedsStatusBarAppearanceUpdate() {
 		super.setNeedsStatusBarAppearanceUpdate()
 		loadViewIfNeeded()
@@ -107,12 +111,11 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol{
 		
 		resignFirstResponder()
 		print("Sender tag: ", sender.tag)
+		
 	}
-	
 }
 
 // MARK: - Extensions
-
 extension UIViewController {
 	
 	func hideKeyboardWhenTappedAround() {
@@ -126,6 +129,5 @@ extension UIViewController {
 		view.endEditing(true)
 		
 	}
-	
 }
 
