@@ -65,8 +65,13 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	
 	///	Hide keyboard after user press return key.
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		let task: String! = textField.text
 		
-		debugPrint("Textfield:", textField.text)
+		createTask()	//	store textField(task) in keychain.
+ 		debugPrint("Textfield:", textField.text)
+		//	TODO: - Remove label is showing as optional.
+		taskLabel.text = ("\(task) is the only thing that matters now.")
+		
 		self.view.endEditing(true)
 		return false
 	}
