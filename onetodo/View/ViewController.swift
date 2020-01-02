@@ -51,6 +51,12 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	
 	}
 	
+	///	Preapare label. Only appears when theres is a task.
+	func setTaskLabel() {
+		taskLabel.textColor = .clear
+		
+	}
+	
 	///	Render gradient background.
 	func createGradient() {
 		
@@ -66,7 +72,21 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	///	Hide keyboard after user press return key.
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
 		
-		debugPrint("Textfield:", textField.text)
+		let task: String
+		
+		//	If textfield empty after return pushed.
+		if textField.text!.isEmpty {
+			task = "Write your task."
+			taskLabel.text = task
+			
+		} else {
+			
+			task = textField.text!
+			createTask()	//	store textField(task) in keychain.
+			debugPrint("Textfield:", textField.text)
+			taskLabel.text = ("Your current task: '\(task)' is the only thing that matters now.")
+		}
+		
 		self.view.endEditing(true)
 		return false
 	}
