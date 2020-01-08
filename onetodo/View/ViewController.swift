@@ -84,7 +84,7 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 			task = textField.text!
 			createTask()	//	store textField(task) in keychain.
 			debugPrint("Textfield:", textField.text)
-			taskLabel.text = ("Your current task: '\(task)' is the only thing that matters now.")
+			taskLabel.text = ("Your current task:\n'\(task)'\n is the only thing that matters now.")
 		}
 		
 		self.view.endEditing(true)

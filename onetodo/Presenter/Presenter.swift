@@ -47,4 +47,5 @@ class Presenter: taskProtocol {
 	
 	// MARK: Methods.
 	// TODO: Create methods for random use of labels.
+	
 }
