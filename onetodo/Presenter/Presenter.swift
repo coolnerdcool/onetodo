@@ -9,6 +9,7 @@
 import Foundation
 import SwiftKeychainWrapper
 
+// MARK:  Task Protocol.
 protocol taskProtocol: AnyObject{
 	func createTask()
 	func editTask()
@@ -43,6 +44,8 @@ class Presenter: taskProtocol {
 		//	Remove the task from the keychain.
 		
 	}
-
+	
+	// MARK: Methods.
+	// TODO: Create methods for random use of labels.
 	
 }
