@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502B1FA623D5CF9500B84CB8 /* TaskProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502B1FA523D5CF9500B84CB8 /* TaskProtocols.swift */; };
 		5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030392368D7BB00E9F21A /* AppDelegate.swift */; };
 		5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303B2368D7BB00E9F21A /* SceneDelegate.swift */; };
 		5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303D2368D7BB00E9F21A /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		25E4E4440B6006E6DB7E4450 /* Pods_onetodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onetodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4EBB45D05DC374C1787B7A /* Pods-onetodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.debug.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.debug.xcconfig"; sourceTree = "<group>"; };
+		502B1FA523D5CF9500B84CB8 /* TaskProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskProtocols.swift; sourceTree = "<group>"; };
 		505030362368D7BB00E9F21A /* onetodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onetodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030392368D7BB00E9F21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5050303B2368D7BB00E9F21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		502B1FA423D5CF7A00B84CB8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				502B1FA523D5CF9500B84CB8 /* TaskProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		5050302D2368D7BB00E9F21A = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		505030382368D7BB00E9F21A /* onetodo */ = {
 			isa = PBXGroup;
 			children = (
+				502B1FA423D5CF7A00B84CB8 /* Protocols */,
 				5083CC3A2390049300A21281 /* Model */,
 				5083CC392390048300A21281 /* View */,
 				5083CC382390047500A21281 /* Presenter */,
@@ -310,6 +321,7 @@
 				505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */,
 				5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */,
 				5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */,
+				502B1FA623D5CF9500B84CB8 /* TaskProtocols.swift in Sources */,
 				5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
