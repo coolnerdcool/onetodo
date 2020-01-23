@@ -25,12 +25,13 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="yes"/>
                                 <connections>
                                     <action selector="saveTask:" destination="L3e-4f-0za" eventType="editingDidEnd" id="lKp-B9-eCE"/>
+                                    <segue destination="Zlv-tL-jAt" kind="show" id="LdZ-2G-MDO"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gW-0g-lWX">
-                                <rect key="frame" x="51" y="129" width="312" height="60.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gW-0g-lWX">
+                                <rect key="frame" x="51" y="129" width="312" height="109"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="2gW-0g-lWX" secondAttribute="height" multiplier="203:59" constant="104.5593220338983" id="bdj-mm-bua"/>
+                                    <constraint firstAttribute="width" secondItem="2gW-0g-lWX" secondAttribute="height" multiplier="203:59" constant="-63.03389830508479" id="bdj-mm-bua"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
@@ -67,6 +68,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="heu-2I-O2I"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ew4-IB-uB7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0SI-Bx-X4O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
