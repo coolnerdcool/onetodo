@@ -25,7 +25,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="yes"/>
                                 <connections>
                                     <action selector="saveTask:" destination="L3e-4f-0za" eventType="editingDidEnd" id="lKp-B9-eCE"/>
-                                    <segue destination="Zlv-tL-jAt" kind="show" id="LdZ-2G-MDO"/>
+                                    <segue destination="y8y-qd-ec3" kind="show" id="Aax-wm-i8I"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gW-0g-lWX">
@@ -58,34 +58,6 @@
             </objects>
             <point key="canvasLocation" x="969.56521739130437" y="154.6875"/>
         </scene>
-        <!--Task Detail View Controller-->
-        <scene sceneID="C6G-0p-a8Z">
-            <objects>
-                <viewController id="Zlv-tL-jAt" customClass="TaskDetailViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="824-kL-gq9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6O-Gt-7Ro">
-                                <rect key="frame" x="103" y="393" width="209" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="heu-2I-O2I"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ew4-IB-uB7"/>
-                    <connections>
-                        <outlet property="taskDetailLabel" destination="N6O-Gt-7Ro" id="Tud-6Y-eAm"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0SI-Bx-X4O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1789.8550724637682" y="154.6875"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="RMQ-dV-vIT">
             <objects>
@@ -103,6 +75,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sW9-cb-wQC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="59.420289855072468" y="154.6875"/>
+        </scene>
+        <!--Task Detail View Controller-->
+        <scene sceneID="vH6-25-TFV">
+            <objects>
+                <viewController id="y8y-qd-ec3" customClass="TaskDetailViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LEv-vT-6Y6" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l16-Su-zka">
+                                <rect key="frame" x="90" y="386.5" width="234" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="l16-Su-zka" secondAttribute="height" multiplier="78:41" id="Ajh-Qx-Yv3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="l16-Su-zka" firstAttribute="centerY" secondItem="LEv-vT-6Y6" secondAttribute="centerY" id="6kX-Ub-GHo"/>
+                            <constraint firstItem="l16-Su-zka" firstAttribute="leading" secondItem="82s-L3-L3q" secondAttribute="leading" constant="90" id="LFa-fj-uVL"/>
+                            <constraint firstItem="l16-Su-zka" firstAttribute="centerX" secondItem="LEv-vT-6Y6" secondAttribute="centerX" id="qSu-7o-bi9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="82s-L3-L3q"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lbt-oj-v46"/>
+                    <connections>
+                        <outlet property="taskDetailLabel" destination="l16-Su-zka" id="IIB-Yu-42D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dYH-QO-GBy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757.9710144927537" y="154.6875"/>
         </scene>
     </scenes>
 </document>

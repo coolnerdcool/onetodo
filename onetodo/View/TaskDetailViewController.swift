@@ -13,8 +13,10 @@ import UIKit
 class TaskDetailViewController: UIViewController {
 	
 	//	IBOutlets.
-	
 	@IBOutlet weak var taskDetailLabel: UILabel!
+	
+	//	Properties.
+	private let mainViewController = ViewController()
 	
 	
 	override func viewDidLoad() {
@@ -22,6 +24,7 @@ class TaskDetailViewController: UIViewController {
 		
 		createGradient()
 		clearNavigationController()
+		showCurrentTask()
 	}
 	
 	func createGradient() {
@@ -41,6 +44,12 @@ class TaskDetailViewController: UIViewController {
 		self.navigationController?.navigationBar.shadowImage   = UIImage()
 		self.navigationController?.navigationBar.isTranslucent = true
 		self.navigationController?.view.backgroundColor        = .clear
+		
+	}
+	
+	func showCurrentTask() {
+		let task = mainViewController.currentTask
+		taskDetailLabel.text =	("Your current task:\n'\(task)'\n is the only thing that matters now.")
 		
 	}
 	
