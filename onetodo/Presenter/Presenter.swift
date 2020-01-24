@@ -30,6 +30,12 @@ class Presenter: taskProtocol {
 		self.view = nil
 	}
 	
+	
+	func getDetailTask(_ task: String)  {
+		
+	
+	}
+	
 	func createTask() {
 		debugPrint("createTask works.")
 

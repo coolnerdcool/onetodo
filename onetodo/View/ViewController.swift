@@ -17,8 +17,10 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	@IBOutlet weak var taskTextField: UITextField!
 	@IBOutlet weak var taskLabel: UILabel!
 	
+	
 	//	Properties
 	private let taskPresenter = Presenter()
+	var currentTask: String =  ""
 	
 	
 	//	Only call to methods here.
@@ -92,10 +94,13 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 			
 		} else {
 			
-			task = textField.text!
+			//task = textField.text!
+			currentTask = textField.text!
+			taskPresenter.getDetailTask(currentTask)
+			
 			createTask()	//	store textField(task) in keychain.
 			debugPrint("Textfield:", textField.text)
-			taskLabel.text = ("Your current task:\n'\(task)'\n is the only thing that matters now.\n (Touch here for more info.)")
+			//taskLabel.text = ("Your current task:\n'\(task)'\n is the only thing that matters now.\n (Touch here for more info.)")
 		}
 		
 		self.view.endEditing(true)
