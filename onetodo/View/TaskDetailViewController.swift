@@ -48,7 +48,8 @@ class TaskDetailViewController: UIViewController {
 	}
 	
 	func showCurrentTask() {
-		let task = mainViewController.currentTask
+		//	Get user task from the keychain and store it in constant.
+		let task = TaskModel().getTask()
 		taskDetailLabel.text =	("Your current task:\n'\(task)'\n is the only thing that matters now.")
 		
 	}

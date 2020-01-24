@@ -96,7 +96,8 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 			
 			//task = textField.text!
 			currentTask = textField.text!
-			taskPresenter.getDetailTask(currentTask)
+			//	Save the task entered by user inside keychain.
+			TaskModel().saveTask(currentTask)
 			
 			createTask()	//	store textField(task) in keychain.
 			debugPrint("Textfield:", textField.text)

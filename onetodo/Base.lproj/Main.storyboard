@@ -89,7 +89,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="l16-Su-zka" secondAttribute="height" multiplier="78:41" id="Ajh-Qx-Yv3"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
