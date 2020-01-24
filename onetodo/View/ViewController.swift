@@ -15,7 +15,6 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	
 	//	IBOutlets
 	@IBOutlet weak var taskTextField: UITextField!
-	@IBOutlet weak var taskLabel: UILabel!
 	
 	
 	//	Properties
@@ -55,7 +54,6 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	
 	///	Preapare label. Only appears when theres is a task.
 	func setTaskLabel() {
-		taskLabel.textColor = .clear
 		
 	}
 	
@@ -90,7 +88,6 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 		//	If textfield empty after return pushed.
 		if textField.text!.isEmpty {
 			task = "Write your task."
-			taskLabel.text = task
 			
 		} else {
 			
