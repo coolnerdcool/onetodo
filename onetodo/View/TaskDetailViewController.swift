@@ -12,6 +12,11 @@ import UIKit
 
 class TaskDetailViewController: UIViewController {
 	
+	//	IBOutlets.
+	
+	@IBOutlet weak var taskDetailLabel: UILabel!
+	
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
