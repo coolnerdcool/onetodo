@@ -28,21 +28,9 @@
                                     <segue destination="y8y-qd-ec3" kind="show" id="Aax-wm-i8I"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gW-0g-lWX">
-                                <rect key="frame" x="51" y="129" width="312" height="109"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="2gW-0g-lWX" secondAttribute="height" multiplier="203:59" constant="-63.03389830508479" id="bdj-mm-bua"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="jFK-lU-cPX" firstAttribute="trailing" secondItem="2gW-0g-lWX" secondAttribute="trailing" constant="51" id="2t3-yr-BT1"/>
-                            <constraint firstItem="2gW-0g-lWX" firstAttribute="top" secondItem="jFK-lU-cPX" secondAttribute="top" constant="41" id="33U-uN-UBw"/>
-                            <constraint firstItem="2gW-0g-lWX" firstAttribute="centerX" secondItem="jFK-lU-cPX" secondAttribute="centerX" id="H1g-Bx-YfS"/>
                             <constraint firstItem="mTs-wr-w2N" firstAttribute="centerX" secondItem="jFK-lU-cPX" secondAttribute="centerX" id="Rbm-Xf-bbU"/>
                             <constraint firstItem="mTs-wr-w2N" firstAttribute="centerY" secondItem="jFK-lU-cPX" secondAttribute="centerY" id="cCN-mY-8KJ"/>
                         </constraints>
@@ -50,7 +38,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="tib-8j-gn9"/>
                     <connections>
-                        <outlet property="taskLabel" destination="2gW-0g-lWX" id="GSE-qB-FAd"/>
                         <outlet property="taskTextField" destination="mTs-wr-w2N" id="Pmp-Wt-qcn"/>
                     </connections>
                 </viewController>
@@ -89,7 +76,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="l16-Su-zka" secondAttribute="height" multiplier="78:41" id="Ajh-Qx-Yv3"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

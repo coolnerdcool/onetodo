@@ -22,6 +22,7 @@ class TaskDetailViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		//	Try to only call methods inside of here.
 		createGradient()
 		clearNavigationController()
 		showCurrentTask()
