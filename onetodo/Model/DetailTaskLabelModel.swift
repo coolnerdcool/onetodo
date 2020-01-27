@@ -17,6 +17,7 @@ class DetailTaskLabelModel {
 	/// A new random label is returned.
 	/// - Parameter task: String for interpolation in label.
 	func randomDetailTaskLabel(_ task: String) {
+		
 		let detailTaskLabels = [
 			"Your current task:\n'\(task)'\n is the only thing that matters now.",
 			"\(task)\n is really important for you.\n Just Do It.",
@@ -25,6 +26,4 @@ class DetailTaskLabelModel {
 		]
 		
 	}
-	
-	
 }
