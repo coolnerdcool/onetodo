@@ -22,6 +22,10 @@ class DetailTaskLabelModel {
 			"Your current task:\n'\(task)'\n is the only thing that matters now.",
 			"\(task)\n is really important for you.\n Just Do It.",
 			"Right now you only have to do one thing:\n \(task)\n That's it.",
+			"\(task)\n\(task)\n And only that. Make it happen.",
+			"Your current task:\n'\(task)'\n is the only thing that matters now.",
+			"\(task)\n is really important for you.\n Just Do It.",
+			"Right now you only have to do one thing:\n \(task)\n That's it.",
 			"\(task)\n\(task)\n And only that. Make it happen."
 		]
 		
