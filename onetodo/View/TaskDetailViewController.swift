@@ -29,7 +29,7 @@ class TaskDetailViewController: UIViewController {
 	}
 	
 	func createGradient() {
-		
+		//	Set gradient values for background.
 		let gradientLayer        = CAGradientLayer()
 		gradientLayer.colors     = [UIColor.red, UIColor.blue]
 		gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
