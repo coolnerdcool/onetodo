@@ -26,6 +26,7 @@ class TaskDetailViewController: UIViewController {
 		//	Try to only call methods inside of here.
 		createGradient()
 		clearNavigationController()
+		setBackBtnCustom()
 		showCurrentTask()
 	}
 	
@@ -49,6 +50,20 @@ class TaskDetailViewController: UIViewController {
 		
 	}
 	
+	func setBackBtnCustom() {
+		
+		// Custom back button for navigationController.
+		let backLeftBtn: UIButton = UIButton()
+		
+		backLeftBtn.setImage(UIImage(named: "backBtn"), for: UIControl.State())
+		backLeftBtn.addTarget(self, action: #selector(onClickBtn), for: UIControl.Event.touchUpInside)
+		backLeftBtn.frame = CGRect(x: 0, y: 0, width: 32/2, height: 27/2)
+		
+		let barButton = UIBarButtonItem(customView: backLeftBtn)
+		self.navigationItem.leftBarButtonItem = barButton
+		
+	}
+	
 	func showCurrentTask() {
 		//	Get user task from the keychain and store it in constant.
 		let task = TaskModel().getTask()
@@ -56,5 +71,8 @@ class TaskDetailViewController: UIViewController {
 		
 	}
 	
-	
+	//	Selector for SetBtnCustom()
+	@objc func onClickBtn() {
+		 self.navigationController?.popViewController(animated: true)
+	}
 }
