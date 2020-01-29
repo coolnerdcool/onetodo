@@ -17,6 +17,7 @@ class TaskDetailViewController: UIViewController {
 	
 	//	Properties.
 	private let mainViewController = ViewController()
+	private let detailTaskLabelModel = DetailTaskLabelModel()
 	
 	
 	override func viewDidLoad() {
@@ -51,7 +52,7 @@ class TaskDetailViewController: UIViewController {
 	func showCurrentTask() {
 		//	Get user task from the keychain and store it in constant.
 		let task = TaskModel().getTask()
-		taskDetailLabel.text =	("Your current task:\n'\(task)'\n is the only thing that matters now.")
+		taskDetailLabel.text =	detailTaskLabelModel.randomDetailTaskLabel(task)
 		
 	}
 	
