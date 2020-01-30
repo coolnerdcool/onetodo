@@ -14,18 +14,6 @@
       "idiom" : "iphone",
       "filename" : "iPhone 11 Pro Max@3x.png",
       "scale" : "3x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "iPhone 11 Pro Maxgradient1x.png",
-      "unassigned" : true,
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "iPhone 11 Pro Maxgradient.png",
-      "unassigned" : true,
-      "scale" : "2x"
     }
   ],
   "info" : {

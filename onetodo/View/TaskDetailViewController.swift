@@ -23,7 +23,7 @@ class TaskDetailViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		//	Try to only call methods inside of here.
+		//	Only call methods inside of here.
 		createGradient()
 		clearNavigationController()
 		setBackBtnCustom()
@@ -51,7 +51,6 @@ class TaskDetailViewController: UIViewController {
 	}
 	
 	func setBackBtnCustom() {
-		
 		// Custom back button for navigationController.
 		let backLeftBtn: UIButton = UIButton()
 		
@@ -71,7 +70,7 @@ class TaskDetailViewController: UIViewController {
 		
 	}
 	
-	//	Selector for SetBtnCustom()
+	//	Selector for SetBtnCustom() makes the button work actually going back.
 	@objc func onClickBtn() {
 		 self.navigationController?.popViewController(animated: true)
 	}
