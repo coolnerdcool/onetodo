@@ -27,6 +27,7 @@ class TaskDetailViewController: UIViewController {
 		createGradient()
 		clearNavigationController()
 		setBackBtnCustom()
+		setCitcleBtn()
 		showCurrentTask()
 	}
 	
@@ -52,11 +53,14 @@ class TaskDetailViewController: UIViewController {
 	
 	func setCitcleBtn() {
 		//	Add bitton in navigaton bar.
-		let circleBtn: UIButton = UIButton()
+		let circleBtn: UIButton = UIButton(type: .custom)
 		
 		circleBtn.setImage(UIImage(named: "circleBtn"), for: UIControl.State())
+		circleBtn.addTarget(self, action: #selector(onTouchBtn), for: UIControl.Event.touchUpInside)
+		circleBtn.frame = CGRect(x: 0, y: 0, width: 32/2, height: 27/2)
 		
-		
+//		let barButton = UIBarButtonItem(customView: circleBtn)
+		self.navigationItem.titleView = circleBtn
 	}
 	
 	func setBackBtnCustom() {
@@ -82,5 +86,9 @@ class TaskDetailViewController: UIViewController {
 	//	Selector for SetBtnCustom() makes the button work actually going back.
 	@objc func onClickBtn() {
 		 self.navigationController?.popViewController(animated: true)
+	}
+	
+	@objc func onTouchBtn() {
+		self.navigationController?.popViewController(animated: true)
 	}
 }
