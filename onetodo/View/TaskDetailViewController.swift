@@ -50,6 +50,15 @@ class TaskDetailViewController: UIViewController {
 		
 	}
 	
+	func setCitcleBtn() {
+		//	Add bitton in navigaton bar.
+		let circleBtn: UIButton = UIButton()
+		
+		circleBtn.setImage(UIImage(named: "circleBtn"), for: UIControl.State())
+		
+		
+	}
+	
 	func setBackBtnCustom() {
 		// Custom back button for navigationController.
 		let backLeftBtn: UIButton = UIButton()
