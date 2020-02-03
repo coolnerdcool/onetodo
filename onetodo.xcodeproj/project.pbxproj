@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */; };
 		5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030392368D7BB00E9F21A /* AppDelegate.swift */; };
 		5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303B2368D7BB00E9F21A /* SceneDelegate.swift */; };
 		5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303D2368D7BB00E9F21A /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 		505030542368D7C000E9F21A /* onetodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030532368D7C000E9F21A /* onetodoTests.swift */; };
 		5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054C7E1236A102800F87FA7 /* Presenter.swift */; };
 		505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505772E923A34E6B0016CF47 /* TaskModel.swift */; };
+		50B4D98E23CB768D001A1C98 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4D98D23CB768D001A1C98 /* TaskDetailViewController.swift */; };
+		50EEEB6723E877CF006A9CA6 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEEB6623E877CF006A9CA6 /* TimeViewController.swift */; };
 		83E29E59FEA914AEC52CEE99 /* Pods_onetodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E4E4440B6006E6DB7E4450 /* Pods_onetodo.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,7 @@
 /* Begin PBXFileReference section */
 		25E4E4440B6006E6DB7E4450 /* Pods_onetodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onetodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4EBB45D05DC374C1787B7A /* Pods-onetodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.debug.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.debug.xcconfig"; sourceTree = "<group>"; };
+		50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTaskLabelModel.swift; sourceTree = "<group>"; };
 		505030362368D7BB00E9F21A /* onetodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onetodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030392368D7BB00E9F21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5050303B2368D7BB00E9F21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		505030552368D7C000E9F21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5054C7E1236A102800F87FA7 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		505772E923A34E6B0016CF47 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		50B4D98D23CB768D001A1C98 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		50EEEB6623E877CF006A9CA6 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		9A683C66BCE99306A5DC821F /* Pods-onetodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.release.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				5050303D2368D7BB00E9F21A /* ViewController.swift */,
+				50B4D98D23CB768D001A1C98 /* TaskDetailViewController.swift */,
+				50EEEB6623E877CF006A9CA6 /* TimeViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				505772E923A34E6B0016CF47 /* TaskModel.swift */,
+				50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,11 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B4D98E23CB768D001A1C98 /* TaskDetailViewController.swift in Sources */,
 				505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */,
 				5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */,
 				505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */,
+				50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */,
 				5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */,
 				5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */,
+				50EEEB6723E877CF006A9CA6 /* TimeViewController.swift in Sources */,
 				5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
