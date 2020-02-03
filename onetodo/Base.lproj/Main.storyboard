@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="59.420289855072468" y="154.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Time View Controller-->
         <scene sceneID="nhw-Zn-OJv">
             <objects>
-                <viewController id="YZE-aG-3B8" sceneMemberID="viewController">
+                <viewController id="YZE-aG-3B8" customClass="TimeViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ejm-fA-8WT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
