@@ -11,5 +11,17 @@ import UIKit
 
 class TimeViewController: UIViewController {
 	
+	// IBOutlets.
+	
+	//	Properties.
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+	}
+	
+	//	Functions.
+	
+	//	IBActions.
+	
 	
 }
