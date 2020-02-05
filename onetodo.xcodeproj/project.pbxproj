@@ -18,6 +18,7 @@
 		505030542368D7C000E9F21A /* onetodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030532368D7C000E9F21A /* onetodoTests.swift */; };
 		5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054C7E1236A102800F87FA7 /* Presenter.swift */; };
 		505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505772E923A34E6B0016CF47 /* TaskModel.swift */; };
+		506FB55623EB12E6000311D5 /* TaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FB55523EB12E6000311D5 /* TaskPresenter.swift */; };
 		50B4D98E23CB768D001A1C98 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4D98D23CB768D001A1C98 /* TaskDetailViewController.swift */; };
 		50EEEB6723E877CF006A9CA6 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEEB6623E877CF006A9CA6 /* TimeViewController.swift */; };
 		83E29E59FEA914AEC52CEE99 /* Pods_onetodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E4E4440B6006E6DB7E4450 /* Pods_onetodo.framework */; };
@@ -51,6 +52,7 @@
 		505030552368D7C000E9F21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5054C7E1236A102800F87FA7 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		505772E923A34E6B0016CF47 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		506FB55523EB12E6000311D5 /* TaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPresenter.swift; sourceTree = "<group>"; };
 		50B4D98D23CB768D001A1C98 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 		50EEEB6623E877CF006A9CA6 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		9A683C66BCE99306A5DC821F /* Pods-onetodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.release.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				5054C7E1236A102800F87FA7 /* Presenter.swift */,
+				506FB55523EB12E6000311D5 /* TaskPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				50B4D98E23CB768D001A1C98 /* TaskDetailViewController.swift in Sources */,
 				505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */,
 				5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */,
+				506FB55623EB12E6000311D5 /* TaskPresenter.swift in Sources */,
 				505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */,
 				50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */,
 				5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */,
