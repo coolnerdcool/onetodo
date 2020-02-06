@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	
 	
 	//	Properties
-	private let taskPresenter = Presenter()
+	private let taskPresenter = TaskPresenter()
 	var currentTask: String =  ""
 	
 	
