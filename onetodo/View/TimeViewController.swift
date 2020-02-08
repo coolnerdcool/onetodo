@@ -19,6 +19,10 @@ class TimeViewController: UIViewController {
 		super.viewDidLoad()
 	}
 	
+	override func viewWillDisappear(_ animated: Bool) {
+		
+	}
+	
 	//	Functions.
 	
 	//	IBActions.
