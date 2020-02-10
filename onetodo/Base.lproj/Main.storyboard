@@ -99,41 +99,20 @@
             <point key="canvasLocation" x="1757.9710144927537" y="154.6875"/>
         </scene>
         <!--Time View Controller-->
-        <scene sceneID="185-W3-hxk">
+        <scene sceneID="frK-A0-haz">
             <objects>
-                <viewController storyboardIdentifier="timeViewController" id="J8P-1t-fjT" customClass="TimeViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="esk-cm-x5K" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
+                <viewController storyboardIdentifier="timeViewController" id="qaY-tG-q6K" customClass="TimeViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="09y-Nb-4pL" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="What do you want to do?" placeholder="What's next?" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vaw-Ck-w9m">
-                                <rect key="frame" x="105.5" y="444" width="203.5" height="18.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="vaw-Ck-w9m" secondAttribute="height" multiplier="11:1" id="p4A-KK-ABM"/>
-                                </constraints>
-                                <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="yes"/>
-                                <connections>
-                                    <action selector="saveTask:" destination="J8P-1t-fjT" eventType="editingDidEnd" id="Lyc-4N-wCU"/>
-                                </connections>
-                            </textField>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="vaw-Ck-w9m" firstAttribute="centerY" secondItem="4XJ-07-luu" secondAttribute="centerY" id="TJi-MI-bAx"/>
-                            <constraint firstItem="vaw-Ck-w9m" firstAttribute="centerX" secondItem="4XJ-07-luu" secondAttribute="centerX" id="VPQ-ho-dTh"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="4XJ-07-luu"/>
+                        <viewLayoutGuide key="safeArea" id="NaA-rN-PLF"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Wh7-Ap-qgb"/>
-                    <connections>
-                        <outlet property="taskTextField" destination="vaw-Ck-w9m" id="m63-rh-24r"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="SiB-Kp-DuK"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P4e-Jo-Bbb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0E-jB-9id" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1758" y="-586"/>
+            <point key="canvasLocation" x="2532" y="155"/>
         </scene>
     </scenes>
 </document>
