@@ -6,6 +6,7 @@
 //  Copyright © 2020 Michel Ortega. All rights reserved.
 //
 
+import AnimatedGradientView
 import Foundation
 import UIKit
 
@@ -24,7 +25,10 @@ class TimeViewController: UIViewController {
 	}
 	
 	//	Functions.
-	
+	func startTimer() {
+		
+		
+	}
 	//	IBActions.
 	
 	

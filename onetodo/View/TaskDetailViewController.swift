@@ -92,8 +92,7 @@ class TaskDetailViewController: UIViewController {
 		let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
 		let timeViewController = storyboard.instantiateViewController(identifier: "timeViewController") as! TimeViewController
 		
-		self.present(timeViewController, animated: true, completion: nil)
-//		self.navigationController?.pushViewController(timeViewController, animated: true)
-//		self.navigationController?.popViewController(animated: true)
+//		self.present(timeViewController, animated: true, completion: nil)
+		self.navigationController?.pushViewController(timeViewController, animated: true)
 	}
 }
