@@ -19,6 +19,8 @@ class TaskDetailViewController: UIViewController {
 	private let mainViewController = ViewController()
 	private let detailTaskLabelModel = DetailTaskLabelModel()
 	
+	let navigationBarHelper: NavigationBarHelper = NavigationBarHelper()
+	
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -68,7 +70,7 @@ class TaskDetailViewController: UIViewController {
 		let backLeftBtn: UIButton = UIButton()
 		
 		backLeftBtn.setImage(UIImage(named: "backBtn"), for: UIControl.State())
-		backLeftBtn.addTarget(self, action: #selector(onClickBtn), for: UIControl.Event.touchUpInside)
+		backLeftBtn.addTarget(self, action: #selector(onTapBtn), for: UIControl.Event.touchUpInside)
 		backLeftBtn.frame = CGRect(x: 0, y: 0, width: 32/2, height: 27/2)
 		
 		let barButton = UIBarButtonItem(customView: backLeftBtn)
@@ -84,7 +86,7 @@ class TaskDetailViewController: UIViewController {
 	}
 	
 	//	Selector for SetBtnCustom() makes the button work actually going back.
-	@objc func onClickBtn() {
+	@objc func onTapBtn() {
 		 self.navigationController?.popViewController(animated: true)
 	}
 	
