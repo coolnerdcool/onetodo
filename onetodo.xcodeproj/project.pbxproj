@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		50051ABC23F19332002CA531 /* NavigationBarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50051ABB23F19332002CA531 /* NavigationBarHelper.swift */; };
 		50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */; };
+		5039CA6A23F438E800640835 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039CA6923F438E700640835 /* UIColor+Ext.swift */; };
 		5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030392368D7BB00E9F21A /* AppDelegate.swift */; };
 		5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303B2368D7BB00E9F21A /* SceneDelegate.swift */; };
 		5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303D2368D7BB00E9F21A /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 		2A4EBB45D05DC374C1787B7A /* Pods-onetodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.debug.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.debug.xcconfig"; sourceTree = "<group>"; };
 		50051ABB23F19332002CA531 /* NavigationBarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHelper.swift; sourceTree = "<group>"; };
 		50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTaskLabelModel.swift; sourceTree = "<group>"; };
+		5039CA6923F438E700640835 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		505030362368D7BB00E9F21A /* onetodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onetodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030392368D7BB00E9F21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5050303B2368D7BB00E9F21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		5039CA6823F438CC00640835 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5039CA6923F438E700640835 /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5050302D2368D7BB00E9F21A = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		505030382368D7BB00E9F21A /* onetodo */ = {
 			isa = PBXGroup;
 			children = (
+				5039CA6823F438CC00640835 /* Extensions */,
 				50051ABA23F19315002CA531 /* Helpers */,
 				5083CC3A2390049300A21281 /* Model */,
 				5083CC382390047500A21281 /* Presenter */,
@@ -333,6 +344,7 @@
 				50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */,
 				5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */,
 				5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */,
+				5039CA6A23F438E800640835 /* UIColor+Ext.swift in Sources */,
 				50EEEB6723E877CF006A9CA6 /* TimeViewController.swift in Sources */,
 				5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */,
 			);
