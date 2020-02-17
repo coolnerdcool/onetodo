@@ -6,6 +6,7 @@
 //  Copyright © 2020 Michel Ortega. All rights reserved.
 //
 
+//import AGCircularPicker
 import AnimatedGradientView
 import Foundation
 import UIKit
