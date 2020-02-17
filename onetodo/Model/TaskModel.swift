@@ -29,7 +29,5 @@ class TaskModel {
 		let retrievedString: String? = KeychainWrapper.standard.string(forKey: kUSERTASK)
 		return retrievedString ?? ""
 		
-	}
-	
-	
+	} 
 }

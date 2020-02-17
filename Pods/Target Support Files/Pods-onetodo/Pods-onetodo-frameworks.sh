@@ -164,12 +164,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AnimatedGradientView/AnimatedGradientView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Bartinter/Bartinter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HGCircularSlider/HGCircularSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AnimatedGradientView/AnimatedGradientView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Bartinter/Bartinter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HGCircularSlider/HGCircularSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

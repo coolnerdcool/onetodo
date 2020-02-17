@@ -4,6 +4,8 @@ platform :ios, '9.0'
 target 'onetodo' do
    pod 'SwiftKeychainWrapper'
    pod 'FoldingCell'
+   pod 'HGCircularSlider', '~> 2.0.0'
    pod 'Bartinter'
    pod "AnimatedGradientView"
+
 end
