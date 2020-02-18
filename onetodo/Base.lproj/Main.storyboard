@@ -63,21 +63,6 @@
             </objects>
             <point key="canvasLocation" x="59.420289855072468" y="154.6875"/>
         </scene>
-        <!--Time View Controller-->
-        <scene sceneID="nhw-Zn-OJv">
-            <objects>
-                <viewController id="YZE-aG-3B8" customClass="TimeViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ejm-fA-8WT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="W6K-lT-mS2"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cVh-CF-amu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1758" y="-579"/>
-        </scene>
         <!--Task Detail View Controller-->
         <scene sceneID="vH6-25-TFV">
             <objects>
@@ -112,6 +97,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYH-QO-GBy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1757.9710144927537" y="154.6875"/>
+        </scene>
+        <!--Time View Controller-->
+        <scene sceneID="frK-A0-haz">
+            <objects>
+                <viewController storyboardIdentifier="timeViewController" id="qaY-tG-q6K" customClass="TimeViewController" customModule="onetodo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="09y-Nb-4pL" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="NaA-rN-PLF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SiB-Kp-DuK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0E-jB-9id" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2532" y="155"/>
         </scene>
     </scenes>
 </document>

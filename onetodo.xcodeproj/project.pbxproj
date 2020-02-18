@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50051ABC23F19332002CA531 /* NavigationBarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50051ABB23F19332002CA531 /* NavigationBarHelper.swift */; };
 		50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */; };
+		5039CA6A23F438E800640835 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039CA6923F438E700640835 /* UIColor+Ext.swift */; };
 		5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030392368D7BB00E9F21A /* AppDelegate.swift */; };
 		5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303B2368D7BB00E9F21A /* SceneDelegate.swift */; };
 		5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303D2368D7BB00E9F21A /* ViewController.swift */; };
@@ -16,8 +18,9 @@
 		505030462368D7C000E9F21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505030452368D7C000E9F21A /* Assets.xcassets */; };
 		505030492368D7C000E9F21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505030472368D7C000E9F21A /* LaunchScreen.storyboard */; };
 		505030542368D7C000E9F21A /* onetodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030532368D7C000E9F21A /* onetodoTests.swift */; };
-		5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054C7E1236A102800F87FA7 /* Presenter.swift */; };
+		5054C7E2236A102800F87FA7 /* TaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054C7E1236A102800F87FA7 /* TaskPresenter.swift */; };
 		505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505772E923A34E6B0016CF47 /* TaskModel.swift */; };
+		506FB55623EB12E6000311D5 /* TimePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506FB55523EB12E6000311D5 /* TimePresenter.swift */; };
 		50B4D98E23CB768D001A1C98 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B4D98D23CB768D001A1C98 /* TaskDetailViewController.swift */; };
 		50EEEB6723E877CF006A9CA6 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EEEB6623E877CF006A9CA6 /* TimeViewController.swift */; };
 		83E29E59FEA914AEC52CEE99 /* Pods_onetodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E4E4440B6006E6DB7E4450 /* Pods_onetodo.framework */; };
@@ -36,7 +39,9 @@
 /* Begin PBXFileReference section */
 		25E4E4440B6006E6DB7E4450 /* Pods_onetodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onetodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4EBB45D05DC374C1787B7A /* Pods-onetodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.debug.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.debug.xcconfig"; sourceTree = "<group>"; };
+		50051ABB23F19332002CA531 /* NavigationBarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHelper.swift; sourceTree = "<group>"; };
 		50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTaskLabelModel.swift; sourceTree = "<group>"; };
+		5039CA6923F438E700640835 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		505030362368D7BB00E9F21A /* onetodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onetodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030392368D7BB00E9F21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5050303B2368D7BB00E9F21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,8 +54,9 @@
 		5050304F2368D7C000E9F21A /* onetodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onetodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030532368D7C000E9F21A /* onetodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onetodoTests.swift; sourceTree = "<group>"; };
 		505030552368D7C000E9F21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5054C7E1236A102800F87FA7 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		5054C7E1236A102800F87FA7 /* TaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPresenter.swift; sourceTree = "<group>"; };
 		505772E923A34E6B0016CF47 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		506FB55523EB12E6000311D5 /* TimePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePresenter.swift; sourceTree = "<group>"; };
 		50B4D98D23CB768D001A1C98 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 		50EEEB6623E877CF006A9CA6 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		9A683C66BCE99306A5DC821F /* Pods-onetodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onetodo.release.xcconfig"; path = "Target Support Files/Pods-onetodo/Pods-onetodo.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +90,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		50051ABA23F19315002CA531 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				50051ABB23F19332002CA531 /* NavigationBarHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5039CA6823F438CC00640835 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5039CA6923F438E700640835 /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5050302D2368D7BB00E9F21A = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +129,11 @@
 		505030382368D7BB00E9F21A /* onetodo */ = {
 			isa = PBXGroup;
 			children = (
+				5039CA6823F438CC00640835 /* Extensions */,
+				50051ABA23F19315002CA531 /* Helpers */,
 				5083CC3A2390049300A21281 /* Model */,
-				5083CC392390048300A21281 /* View */,
 				5083CC382390047500A21281 /* Presenter */,
+				5083CC392390048300A21281 /* View */,
 				505030472368D7C000E9F21A /* LaunchScreen.storyboard */,
 				5050303F2368D7BB00E9F21A /* Main.storyboard */,
 				505030392368D7BB00E9F21A /* AppDelegate.swift */,
@@ -133,7 +157,8 @@
 		5083CC382390047500A21281 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				5054C7E1236A102800F87FA7 /* Presenter.swift */,
+				5054C7E1236A102800F87FA7 /* TaskPresenter.swift */,
+				506FB55523EB12E6000311D5 /* TimePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -311,12 +336,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B4D98E23CB768D001A1C98 /* TaskDetailViewController.swift in Sources */,
+				50051ABC23F19332002CA531 /* NavigationBarHelper.swift in Sources */,
 				505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */,
-				5054C7E2236A102800F87FA7 /* Presenter.swift in Sources */,
+				5054C7E2236A102800F87FA7 /* TaskPresenter.swift in Sources */,
+				506FB55623EB12E6000311D5 /* TimePresenter.swift in Sources */,
 				505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */,
 				50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */,
 				5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */,
 				5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */,
+				5039CA6A23F438E800640835 /* UIColor+Ext.swift in Sources */,
 				50EEEB6723E877CF006A9CA6 /* TimeViewController.swift in Sources */,
 				5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */,
 			);

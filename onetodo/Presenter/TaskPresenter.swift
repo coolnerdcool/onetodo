@@ -18,7 +18,7 @@ protocol taskProtocol: AnyObject{
 }
 
 // MARK: The methods inside here manage the way the task is stored and used.
-class Presenter: taskProtocol {
+class TaskPresenter: taskProtocol {
 	
 	weak private var view: taskProtocol?
 	
