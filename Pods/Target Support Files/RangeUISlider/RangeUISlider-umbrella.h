@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "RangeUISlider.h"
 
-FOUNDATION_EXPORT double HGCircularSliderVersionNumber;
-FOUNDATION_EXPORT const unsigned char HGCircularSliderVersionString[];
+FOUNDATION_EXPORT double RangeUISliderVersionNumber;
+FOUNDATION_EXPORT const unsigned char RangeUISliderVersionString[];
 

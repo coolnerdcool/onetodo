@@ -9,6 +9,7 @@
 //import AGCircularPicker
 import AnimatedGradientView
 import Foundation
+import RangeUISlider
 import UIKit
 
 class TimeViewController: UIViewController {

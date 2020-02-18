@@ -7,168 +7,174 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A1E9D786CA1040C50244F3427482C2C /* SwiftKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C78E207CF4F6F6B22E0BBE5F3D0A061 /* SwiftKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A7498626D8E00C267D5588157AE302E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		0C9063D3EE9F8283A11A4CD0D038DC46 /* AnimatedGradientViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF316EFC3FC9281E7F4FF20539BD8FC /* AnimatedGradientViewAnimation.swift */; };
+		0A1E9D786CA1040C50244F3427482C2C /* SwiftKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FAF55421B4072E3E6FCF44632CAC84 /* SwiftKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C9063D3EE9F8283A11A4CD0D038DC46 /* AnimatedGradientViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462B6E11B51F650B2950BB826F83235B /* AnimatedGradientViewAnimation.swift */; };
 		14808571C0C9407F47AE182F880620E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		187535D0FE39F508B78C30C049FB35DB /* Bartinter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 124E9E58E72C861EA2D2E48B07E53A86 /* Bartinter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BB72D35C1614D5955F927774DCC7C44 /* SwiftKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D190D84A277F2A01F24AB7F5C1D31BBF /* SwiftKeychainWrapper-dummy.m */; };
-		1F67BF91C84701CA0813AF986D5AE17E /* Bartinter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F779BCDBD4976FA75A4EAEA4AB4B962 /* Bartinter-dummy.m */; };
-		23AE8D7B15AE823A76B41ACF746FC91D /* MidPointCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F673AF5FF6D70293F590D5245F8F156 /* MidPointCircularSlider.swift */; };
-		33129701D6A331F40BEC83251A91EFE6 /* CircularSliderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCCD738C890AD4A834FAF51B2CB17DD /* CircularSliderHelper.swift */; };
+		187535D0FE39F508B78C30C049FB35DB /* Bartinter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B532AA18BCA41F3B2D24AAE1FFBAF30 /* Bartinter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB72D35C1614D5955F927774DCC7C44 /* SwiftKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1000B15D24C42842075533BCE5C9B9BA /* SwiftKeychainWrapper-dummy.m */; };
+		1F67BF91C84701CA0813AF986D5AE17E /* Bartinter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B83D031F685C28971D9977E72478940A /* Bartinter-dummy.m */; };
+		2BD65948F65794B11B6D80B2BF11F83E /* RangeUISlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DCD8E22B7492E37DE5702FD8F76433 /* RangeUISlider-dummy.m */; };
 		35C7EB60E66E2814886504B822190484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3A246CB408E326D4798A114169A4D9E3 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8285E95F0D5EC4C9435F5147601A4BFF /* KeychainWrapper.swift */; };
-		42C16D2AAC32442FD57D02FFBD4D99DF /* FoldingCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170FA6BCE5DC4AC22AFE340BB1613BBB /* FoldingCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45D936CD76B399B54D03D7031927CC23 /* AnimatedGradientViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE70AA1EFF75004B52AA959E346DB6F7 /* AnimatedGradientViewColor.swift */; };
-		47D2B9E3F8A7CE5883EC01B9C1159D3C /* RegularExpressionMatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C92B6B24D18EA9BEBE794D1552CD27 /* RegularExpressionMatchable.swift */; };
-		5410D99BC8589DD8B7AF1D21117CE47D /* Collection+UniqueMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA97E4DB1689C68BAE3D40B6EE298C31 /* Collection+UniqueMap.swift */; };
-		5883988266FD85F8F679DBC599A9E64E /* Pods-onetodo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA7C93E110BED2FEB1597D667A6FCB3 /* Pods-onetodo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59766D794370855B332B6A37244F3DB6 /* AnimatedGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFDFE63C91B62264C0A40E0B78B0136 /* AnimatedGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68BD4C2E3B2F4F9F766624CE1592DC99 /* AnimatedGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42619EDCE70C2C9181444D6C5C588098 /* AnimatedGradientView.swift */; };
-		6C714434BB72614FDC72372E9EBD4837 /* FoldingCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C53B952543CD565913B01017341F3A58 /* FoldingCell-dummy.m */; };
-		701C2F5A876C21D45629A096FDC17081 /* HGCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F8C608C159309CA7C271A1F4D64E68 /* HGCircularSlider-dummy.m */; };
-		728A7B41BB0713AE361F974AB8F6B015 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B8FFA22A38DA61DC073D3DAA45AEC9 /* Throttler.swift */; };
-		7BDEA58982AE38EC64F549D981FD45E6 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A834F4113625CFB6D0095421980FBB /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		818923762A26DD23DFDA8338039FC7A9 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E206A874DA64BDCE86E2B7F65C8DC4 /* FoldingCell.swift */; };
-		853500B973255E0957451456FAAD6E31 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC436A7C65E5F7A39E5BE5A482AE777 /* KeychainItemAccessibility.swift */; };
-		930C6DF016E2C80E07D584C08322B80A /* UIKitSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A4F96DE278D6BA7E2E7E7C579EBF41 /* UIKitSwizzling.swift */; };
+		3A246CB408E326D4798A114169A4D9E3 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9A0800C1B0E80F1D0E9A736263F4C /* KeychainWrapper.swift */; };
+		3D1C82FE382B4C753316C2CE62DDFBA6 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A877BCFB65BD8C5AD9D7E32E682FE6B /* Progress.swift */; };
+		42C16D2AAC32442FD57D02FFBD4D99DF /* FoldingCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15209942E83791DED8443FD90A5C510E /* FoldingCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45D936CD76B399B54D03D7031927CC23 /* AnimatedGradientViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D033168C6F029339CF8CE11911BD5CD /* AnimatedGradientViewColor.swift */; };
+		4631F0F79B70C7B0ACD3A4DD95F762DD /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB7CDE4E82B3F416C4EF7CE3ACB6BE5 /* Knob.swift */; };
+		47D2B9E3F8A7CE5883EC01B9C1159D3C /* RegularExpressionMatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17C4446DD4570A1C04AAA33EEF4701 /* RegularExpressionMatchable.swift */; };
+		5410D99BC8589DD8B7AF1D21117CE47D /* Collection+UniqueMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E905ECFBEC514E557B8AC872B75FA5 /* Collection+UniqueMap.swift */; };
+		59766D794370855B332B6A37244F3DB6 /* AnimatedGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF97728C31B9892D2CA6F5EBE32B633 /* AnimatedGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63EF8408CD5FFB0024FF7C56EE8655C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		68BD4C2E3B2F4F9F766624CE1592DC99 /* AnimatedGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A81A60ED53F433F9F5105FFFE97CC /* AnimatedGradientView.swift */; };
+		6C714434BB72614FDC72372E9EBD4837 /* FoldingCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD3E642B42F3978A5AD21DFD0BD65F8 /* FoldingCell-dummy.m */; };
+		728A7B41BB0713AE361F974AB8F6B015 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C36F1FEEB5D335B901892EF2ADF23B /* Throttler.swift */; };
+		7BDEA58982AE38EC64F549D981FD45E6 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 945367D83BB697B27C130DF19871F84D /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818923762A26DD23DFDA8338039FC7A9 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABCBAD699418155C1F0A5D8D5A61FD0 /* FoldingCell.swift */; };
+		84CE24D5D698CA8848F7E06D0AD6FC67 /* RangeUISliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E94F6941E63568839475ECD795A63DF /* RangeUISliderDelegate.swift */; };
+		853500B973255E0957451456FAAD6E31 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59C5D449BBBF4FF55825F33C1F2D07 /* KeychainItemAccessibility.swift */; };
+		8D212E84E2830480D9FE6FCAFD7E64A9 /* RangeUISlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59977BE52D92D181B1EDA04F0686C123 /* RangeUISlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930C6DF016E2C80E07D584C08322B80A /* UIKitSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF7A7F518346C6477CE895E42DC8F8A /* UIKitSwizzling.swift */; };
+		965903D237457DED7BDF582CFA0DCBBB /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CC1E93E6320E21319BCBDCE4F39AFF /* Gradient.swift */; };
+		9E63CACAB5C1298BDBC0CD7A961DBC4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A2CF9C6BA448841E212A139E2AD7FC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AE83FC64A29699D5FE18294DFFD9F665 /* AnimatedGradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CBCB9BF3DB47ECB69C9A4E2D566989 /* AnimatedGradientDirection.swift */; };
+		AE83FC64A29699D5FE18294DFFD9F665 /* AnimatedGradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A5B5338EE499F984EE04B3E6FF77F /* AnimatedGradientDirection.swift */; };
 		BC26227E147F8AD1620B4B119CB4F419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C5C5E8EE0F8AA6AD3E35745DDDEC3593 /* Bartinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AB2166C5AC2C345CA128F697C4989 /* Bartinter.swift */; };
-		C9FEE8B258584537C7E8740E6C24BD46 /* String+RegularExpressionMatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A513DC49448E78340A191D33808CBD /* String+RegularExpressionMatchable.swift */; };
-		D0C1C90842986CB3495D96C44238301D /* UIViewController+Bartinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57135F1CAD6A00ADEF091FCEA4EF95B /* UIViewController+Bartinter.swift */; };
-		D5E466C9BEE9CF508910C3D1782A8382 /* HGCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AECC76A6FFD7D151CA93ED286FC94B07 /* HGCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4606FAE0CFBA2C4BA46647307ACD499 /* RangeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA64DDA974EB0AE51694D41294F20E1A /* RangeCircularSlider.swift */; };
-		E96E87B8CE55AD88940EC4EE401978F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EA80674011670A90A228929F9D58B8F3 /* AnimatedGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0774208A6FCD73192E7C72E61F8D409 /* AnimatedGradientView-dummy.m */; };
-		F0323327F0DC6DD0972E68B61183260E /* Pods-onetodo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D354102C80520AFC689B7AF5C7485A /* Pods-onetodo-dummy.m */; };
-		F4927D68F6D455229FC1D386DEA83466 /* CircularSlider+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF918E924513EB161CA4C4140B16266 /* CircularSlider+Draw.swift */; };
-		FFAA32FE26C07E3C3486F608F471FC8A /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96838511A3B9D3085E75AEE9D30A88C /* CircularSlider.swift */; };
+		C5C5E8EE0F8AA6AD3E35745DDDEC3593 /* Bartinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB194CD11B8E3A4D0C51F15B7F86940 /* Bartinter.swift */; };
+		C709B9E3022CEE64E587B14678FA8661 /* Pods-onetodo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA7C93E110BED2FEB1597D667A6FCB3 /* Pods-onetodo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C998079BC3778BFFB814E7070D9C8BCA /* RangeUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC74022A360FD3AE8DAB6D52418B9EF /* RangeUISlider.swift */; };
+		C9FEE8B258584537C7E8740E6C24BD46 /* String+RegularExpressionMatchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DF5EFF4F5B5C5896B62A47673D1B6 /* String+RegularExpressionMatchable.swift */; };
+		D0C1C90842986CB3495D96C44238301D /* UIViewController+Bartinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2BC59AF2F9BCA1FD47E53CE243551 /* UIViewController+Bartinter.swift */; };
+		D0DCAD032262D9D1CAABBA176F6FB0D2 /* RangeSelectedCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C42531B1AFEABA00CE16E6B8F6DFE /* RangeSelectedCalculator.swift */; };
+		D5F1724B3F8189445377D0B56ABA8AB1 /* Pods-onetodo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D354102C80520AFC689B7AF5C7485A /* Pods-onetodo-dummy.m */; };
+		D9145E8637ACBC28A3ECAA8D034C8100 /* RangeUISlider.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAC7E9C4C147730B630D363E8BFCF3B /* RangeUISlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB03987A2A65812E61484B71BE810017 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0008E576902071EA9D9132627A0E9 /* Bar.swift */; };
+		EA80674011670A90A228929F9D58B8F3 /* AnimatedGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 294AA0C8C565500EB6F09D5C04EF3419 /* AnimatedGradientView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2BB62144F872308A96D5ED66D307FC09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B7C22957C48BAC70092FB33A0F0893C;
-			remoteInfo = AnimatedGradientView;
-		};
-		81783A7C9B525AE4DFD7F14589EEA310 /* PBXContainerItemProxy */ = {
+		17D6FD33E2907392AC36B1743B4DC967 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A983770812F919D34BAD7D2C5A7EA95C;
 			remoteInfo = FoldingCell;
 		};
-		9268887E3CE97F6CCF02987DF1AE94DE /* PBXContainerItemProxy */ = {
+		9E17EBF187B9A1A2D46850DEE46F3B5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF903DF43E111410ECA0C288D36FA21A;
-			remoteInfo = SwiftKeychainWrapper;
+			remoteGlobalIDString = 6B7C22957C48BAC70092FB33A0F0893C;
+			remoteInfo = AnimatedGradientView;
 		};
-		92D091FB7D595ACAC4E52C6B9C1178A1 /* PBXContainerItemProxy */ = {
+		ED51029DDBD852C1824D7DEF531A64CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ACA30436A6FCE848E06FEECE288E6E8E;
 			remoteInfo = Bartinter;
 		};
-		C1542083BB2D0A64F8D6ED7CE046065E /* PBXContainerItemProxy */ = {
+		F65DDC1E564E84BFE6C75260D4D19BF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 82EEAE7DB07C6F17150BFE2EAD014CB2;
-			remoteInfo = HGCircularSlider;
+			remoteGlobalIDString = CF903DF43E111410ECA0C288D36FA21A;
+			remoteInfo = SwiftKeychainWrapper;
+		};
+		F88046F6B5694CD0F8E8EF49A71C2E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285DE33887F9D6312479228E377D7435;
+			remoteInfo = RangeUISlider;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		000BE243E42FF758C8B125A01F6966C5 /* Pods-onetodo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-onetodo-acknowledgements.plist"; sourceTree = "<group>"; };
-		0028A9FC3AC7796435C2F9A694C87F53 /* HGCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-prefix.pch"; sourceTree = "<group>"; };
-		01E206A874DA64BDCE86E2B7F65C8DC4 /* FoldingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
-		03A77D755987539EE9115C70EF557F60 /* FoldingCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoldingCell.modulemap; sourceTree = "<group>"; };
-		04CDC6852BB766DE2BB9FFB8A44CA065 /* Bartinter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bartinter-prefix.pch"; sourceTree = "<group>"; };
+		01FAF55421B4072E3E6FCF44632CAC84 /* SwiftKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
 		07DE62440F7EF1EE8BF91A04956B5EC1 /* Pods-onetodo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-onetodo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F779BCDBD4976FA75A4EAEA4AB4B962 /* Bartinter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bartinter-dummy.m"; sourceTree = "<group>"; };
-		124E9E58E72C861EA2D2E48B07E53A86 /* Bartinter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bartinter-umbrella.h"; sourceTree = "<group>"; };
-		12CBCB9BF3DB47ECB69C9A4E2D566989 /* AnimatedGradientDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedGradientDirection.swift; path = AnimatedGradientView/Classes/AnimatedGradientDirection.swift; sourceTree = "<group>"; };
+		0AB7CDE4E82B3F416C4EF7CE3ACB6BE5 /* Knob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Knob.swift; path = Source/Knob.swift; sourceTree = "<group>"; };
+		0ABCBAD699418155C1F0A5D8D5A61FD0 /* FoldingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
+		0CB194CD11B8E3A4D0C51F15B7F86940 /* Bartinter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bartinter.swift; path = Bartinter/Source/Bartinter.swift; sourceTree = "<group>"; };
+		0CD3E642B42F3978A5AD21DFD0BD65F8 /* FoldingCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingCell-dummy.m"; sourceTree = "<group>"; };
+		0F89DDB71418F40CD7D08DA69FF438D2 /* AnimatedGradientView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimatedGradientView-Info.plist"; sourceTree = "<group>"; };
+		1000B15D24C42842075533BCE5C9B9BA /* SwiftKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		14C36F1FEEB5D335B901892EF2ADF23B /* Throttler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = Bartinter/Source/Throttler/Throttler.swift; sourceTree = "<group>"; };
+		15209942E83791DED8443FD90A5C510E /* FoldingCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-umbrella.h"; sourceTree = "<group>"; };
 		16B06E47347C8153F1F210838CBD3302 /* Pods-onetodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onetodo.release.xcconfig"; sourceTree = "<group>"; };
-		170FA6BCE5DC4AC22AFE340BB1613BBB /* FoldingCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-umbrella.h"; sourceTree = "<group>"; };
-		1C78E207CF4F6F6B22E0BBE5F3D0A061 /* SwiftKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
-		1FC436A7C65E5F7A39E5BE5A482AE777 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = SwiftKeychainWrapper/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
-		21C92B6B24D18EA9BEBE794D1552CD27 /* RegularExpressionMatchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularExpressionMatchable.swift; path = AnimatedGradientView/Classes/Extensions/RegularExpressionMatchable.swift; sourceTree = "<group>"; };
+		175630FC7D66B95BF31685569B9466A2 /* FoldingCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-prefix.pch"; sourceTree = "<group>"; };
+		1AE9A0800C1B0E80F1D0E9A736263F4C /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		1D59C5D449BBBF4FF55825F33C1F2D07 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = SwiftKeychainWrapper/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		20DCE99813BBCE555FAABF1B7D426887 /* RangeUISlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangeUISlider-prefix.pch"; sourceTree = "<group>"; };
+		248C42531B1AFEABA00CE16E6B8F6DFE /* RangeSelectedCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSelectedCalculator.swift; path = Source/RangeSelectedCalculator.swift; sourceTree = "<group>"; };
+		26036945F75C9D837A135812B9182327 /* SwiftKeychainWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.xcconfig; sourceTree = "<group>"; };
+		294AA0C8C565500EB6F09D5C04EF3419 /* AnimatedGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedGradientView-dummy.m"; sourceTree = "<group>"; };
+		2A877BCFB65BD8C5AD9D7E32E682FE6B /* Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Progress.swift; path = Source/Progress.swift; sourceTree = "<group>"; };
+		2B532AA18BCA41F3B2D24AAE1FFBAF30 /* Bartinter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bartinter-umbrella.h"; sourceTree = "<group>"; };
+		2F4DF5EFF4F5B5C5896B62A47673D1B6 /* String+RegularExpressionMatchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+RegularExpressionMatchable.swift"; path = "AnimatedGradientView/Classes/Extensions/String+RegularExpressionMatchable.swift"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3AFDFE63C91B62264C0A40E0B78B0136 /* AnimatedGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedGradientView-umbrella.h"; sourceTree = "<group>"; };
-		42619EDCE70C2C9181444D6C5C588098 /* AnimatedGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedGradientView.swift; path = AnimatedGradientView/Classes/AnimatedGradientView.swift; sourceTree = "<group>"; };
-		428AB2166C5AC2C345CA128F697C4989 /* Bartinter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bartinter.swift; path = Bartinter/Source/Bartinter.swift; sourceTree = "<group>"; };
-		47C39D629CC7466FAF7DA93436E365ED /* HGCircularSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCircularSlider.xcconfig; sourceTree = "<group>"; };
+		33DCD8E22B7492E37DE5702FD8F76433 /* RangeUISlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangeUISlider-dummy.m"; sourceTree = "<group>"; };
+		3920F7BB2C126EC2F49E3180A6AE8DE9 /* FoldingCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingCell.xcconfig; sourceTree = "<group>"; };
+		3DC74022A360FD3AE8DAB6D52418B9EF /* RangeUISlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeUISlider.swift; path = Source/RangeUISlider.swift; sourceTree = "<group>"; };
+		43E905ECFBEC514E557B8AC872B75FA5 /* Collection+UniqueMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+UniqueMap.swift"; path = "AnimatedGradientView/Classes/Extensions/Collection+UniqueMap.swift"; sourceTree = "<group>"; };
+		462B6E11B51F650B2950BB826F83235B /* AnimatedGradientViewAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedGradientViewAnimation.swift; path = AnimatedGradientView/Classes/AnimatedGradientViewAnimation.swift; sourceTree = "<group>"; };
+		4CF2A8701832EBE21E4A7BBA79D947A3 /* AnimatedGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedGradientView.modulemap; sourceTree = "<group>"; };
+		4E21D037855DB2A7D391D4C7F3216D12 /* RangeUISlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RangeUISlider.modulemap; sourceTree = "<group>"; };
+		4E94F6941E63568839475ECD795A63DF /* RangeUISliderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeUISliderDelegate.swift; path = Source/RangeUISliderDelegate.swift; sourceTree = "<group>"; };
+		4EF97728C31B9892D2CA6F5EBE32B633 /* AnimatedGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedGradientView-umbrella.h"; sourceTree = "<group>"; };
+		4F6516159518B05BA4E0AB3D1E65FE90 /* Bartinter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bartinter.modulemap; sourceTree = "<group>"; };
 		5069D199AB328CCD047E61C632CD7C32 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftKeychainWrapper.framework; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5168C6015D3DB3532B6A8B12FE2050A3 /* Pods-onetodo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-onetodo-frameworks.sh"; sourceTree = "<group>"; };
-		55A834F4113625CFB6D0095421980FBB /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
-		57A4F96DE278D6BA7E2E7E7C579EBF41 /* UIKitSwizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitSwizzling.swift; path = Bartinter/Source/Extensions/UIKitSwizzling.swift; sourceTree = "<group>"; };
-		5972F6B083C883FA12BC1E32A6B13AD7 /* SwiftKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
-		5DCCD738C890AD4A834FAF51B2CB17DD /* CircularSliderHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSliderHelper.swift; path = HGCircularSlider/Classes/CircularSliderHelper.swift; sourceTree = "<group>"; };
-		5DE21784DF8395C944CA0C6C8D98E0D0 /* FoldingCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FoldingCell-Info.plist"; sourceTree = "<group>"; };
+		54A0008E576902071EA9D9132627A0E9 /* Bar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bar.swift; path = Source/Bar.swift; sourceTree = "<group>"; };
+		551A81A60ED53F433F9F5105FFFE97CC /* AnimatedGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedGradientView.swift; path = AnimatedGradientView/Classes/AnimatedGradientView.swift; sourceTree = "<group>"; };
+		59977BE52D92D181B1EDA04F0686C123 /* RangeUISlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangeUISlider-umbrella.h"; sourceTree = "<group>"; };
 		5EA7C93E110BED2FEB1597D667A6FCB3 /* Pods-onetodo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-onetodo-umbrella.h"; sourceTree = "<group>"; };
-		6F673AF5FF6D70293F590D5245F8F156 /* MidPointCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MidPointCircularSlider.swift; path = HGCircularSlider/Classes/MidPointCircularSlider.swift; sourceTree = "<group>"; };
+		639BB469AC840E11CE20192FFC175DAE /* Bartinter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bartinter-Info.plist"; sourceTree = "<group>"; };
 		74BFD41B9E572576CC0BB47F228FCFE5 /* Pods-onetodo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-onetodo.modulemap"; sourceTree = "<group>"; };
+		75D5F994BF6568C90BF507FA9C6731A0 /* AnimatedGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedGradientView-prefix.pch"; sourceTree = "<group>"; };
 		76DDEDAABE05A7409E36E3920EA90F3C /* Bartinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bartinter.framework; path = Bartinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77144A8D35D7BE9861C69E2ED1441FA8 /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoldingCell.framework; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		774181AEAEBC270859599E81C3B2077A /* AnimatedGradientView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimatedGradientView-Info.plist"; sourceTree = "<group>"; };
-		7CF4C82F0EA537777B4A340BCE8714DA /* SwiftKeychainWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftKeychainWrapper-Info.plist"; sourceTree = "<group>"; };
-		7D5D99EA558BDD7BB0D9BBCCEFC8A299 /* HGCircularSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGCircularSlider-Info.plist"; sourceTree = "<group>"; };
+		7D033168C6F029339CF8CE11911BD5CD /* AnimatedGradientViewColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedGradientViewColor.swift; path = AnimatedGradientView/Classes/AnimatedGradientViewColor.swift; sourceTree = "<group>"; };
 		7D8D3AB8B6A67F9E22778773A41000F0 /* Pods_onetodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_onetodo.framework; path = "Pods-onetodo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80BD658E0682C8C444CA56ED37ADD627 /* FoldingCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-prefix.pch"; sourceTree = "<group>"; };
-		8285E95F0D5EC4C9435F5147601A4BFF /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
-		82A513DC49448E78340A191D33808CBD /* String+RegularExpressionMatchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+RegularExpressionMatchable.swift"; path = "AnimatedGradientView/Classes/Extensions/String+RegularExpressionMatchable.swift"; sourceTree = "<group>"; };
-		84FAFDA98645EFA502963240053B7CE4 /* Bartinter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bartinter.xcconfig; sourceTree = "<group>"; };
-		8799D903D1E4EB4CDDE0CAC22809B76D /* Bartinter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bartinter.modulemap; sourceTree = "<group>"; };
-		8BD3BE34EE7392CB81666A92C060B63D /* AnimatedGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedGradientView.xcconfig; sourceTree = "<group>"; };
-		8CF918E924513EB161CA4C4140B16266 /* CircularSlider+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CircularSlider+Draw.swift"; path = "HGCircularSlider/Classes/CircularSlider+Draw.swift"; sourceTree = "<group>"; };
-		92A586E4088B03D209C22728B8A330CC /* AnimatedGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedGradientView-prefix.pch"; sourceTree = "<group>"; };
+		820AE63F93F0B284CFCE31EE28C74A72 /* SwiftKeychainWrapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftKeychainWrapper-Info.plist"; sourceTree = "<group>"; };
+		945367D83BB697B27C130DF19871F84D /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		989EB32795957DF2C9D8728833970435 /* Bartinter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bartinter.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4B8FFA22A38DA61DC073D3DAA45AEC9 /* Throttler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = Bartinter/Source/Throttler/Throttler.swift; sourceTree = "<group>"; };
-		A8D6F132035A583C75E7774DA2ED2756 /* SwiftKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftKeychainWrapper.modulemap; sourceTree = "<group>"; };
 		AA32408D435DD3D8C621B25799CE2288 /* AnimatedGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedGradientView.framework; path = AnimatedGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AECC76A6FFD7D151CA93ED286FC94B07 /* HGCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-umbrella.h"; sourceTree = "<group>"; };
 		B0A41A492BB8398998E3823C05222FDF /* Pods-onetodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onetodo.debug.xcconfig"; sourceTree = "<group>"; };
-		B4DAD34094C86CD6C845AB706E974682 /* FoldingCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingCell.xcconfig; sourceTree = "<group>"; };
-		BE67FC9FC33A759B14BF5A127C1441DF /* SwiftKeychainWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.xcconfig; sourceTree = "<group>"; };
-		BFB449A7914A1916275DCAA093C431EA /* AnimatedGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedGradientView.modulemap; sourceTree = "<group>"; };
+		B83D031F685C28971D9977E72478940A /* Bartinter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bartinter-dummy.m"; sourceTree = "<group>"; };
+		BA38B5BC49C08D6C74CF42EFC670DC19 /* RangeUISlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangeUISlider.xcconfig; sourceTree = "<group>"; };
 		BFDE031DA17ACE602CBF5FDDA8BC0AE2 /* Pods-onetodo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-onetodo-Info.plist"; sourceTree = "<group>"; };
-		C53B952543CD565913B01017341F3A58 /* FoldingCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingCell-dummy.m"; sourceTree = "<group>"; };
-		CCF316EFC3FC9281E7F4FF20539BD8FC /* AnimatedGradientViewAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedGradientViewAnimation.swift; path = AnimatedGradientView/Classes/AnimatedGradientViewAnimation.swift; sourceTree = "<group>"; };
-		D0774208A6FCD73192E7C72E61F8D409 /* AnimatedGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedGradientView-dummy.m"; sourceTree = "<group>"; };
-		D190D84A277F2A01F24AB7F5C1D31BBF /* SwiftKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		C1A2BC59AF2F9BCA1FD47E53CE243551 /* UIViewController+Bartinter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Bartinter.swift"; path = "Bartinter/Source/Extensions/UIViewController+Bartinter.swift"; sourceTree = "<group>"; };
+		C1BD4D7779732E258F1E66F3CBF111B4 /* AnimatedGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedGradientView.xcconfig; sourceTree = "<group>"; };
+		C2CC1E93E6320E21319BCBDCE4F39AFF /* Gradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = Source/Gradient.swift; sourceTree = "<group>"; };
+		C9BAF257A49CC48FE03AF7BA445D2520 /* FoldingCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoldingCell.modulemap; sourceTree = "<group>"; };
+		CC0A5B5338EE499F984EE04B3E6FF77F /* AnimatedGradientDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedGradientDirection.swift; path = AnimatedGradientView/Classes/AnimatedGradientDirection.swift; sourceTree = "<group>"; };
+		CEAD5E6ACEF97C894FD6578D2A38EB52 /* SwiftKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
+		D2B661FB5D26F6A7DF5C58C5501E81D9 /* SwiftKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftKeychainWrapper.modulemap; sourceTree = "<group>"; };
 		D7D354102C80520AFC689B7AF5C7485A /* Pods-onetodo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-onetodo-dummy.m"; sourceTree = "<group>"; };
-		DA64DDA974EB0AE51694D41294F20E1A /* RangeCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeCircularSlider.swift; path = HGCircularSlider/Classes/RangeCircularSlider.swift; sourceTree = "<group>"; };
-		DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HGCircularSlider.framework; path = HGCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E96838511A3B9D3085E75AEE9D30A88C /* CircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSlider.swift; path = HGCircularSlider/Classes/CircularSlider.swift; sourceTree = "<group>"; };
-		EA97E4DB1689C68BAE3D40B6EE298C31 /* Collection+UniqueMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+UniqueMap.swift"; path = "AnimatedGradientView/Classes/Extensions/Collection+UniqueMap.swift"; sourceTree = "<group>"; };
-		EE70AA1EFF75004B52AA959E346DB6F7 /* AnimatedGradientViewColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedGradientViewColor.swift; path = AnimatedGradientView/Classes/AnimatedGradientViewColor.swift; sourceTree = "<group>"; };
-		EF72BDFEB09515CD411B7AA4E337914F /* Bartinter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bartinter-Info.plist"; sourceTree = "<group>"; };
-		F4F8C608C159309CA7C271A1F4D64E68 /* HGCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGCircularSlider-dummy.m"; sourceTree = "<group>"; };
-		F57135F1CAD6A00ADEF091FCEA4EF95B /* UIViewController+Bartinter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Bartinter.swift"; path = "Bartinter/Source/Extensions/UIViewController+Bartinter.swift"; sourceTree = "<group>"; };
-		FDCCB283EE857DF4D7B3CDAEB4581CFE /* HGCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGCircularSlider.modulemap; sourceTree = "<group>"; };
+		DAF7A7F518346C6477CE895E42DC8F8A /* UIKitSwizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitSwizzling.swift; path = Bartinter/Source/Extensions/UIKitSwizzling.swift; sourceTree = "<group>"; };
+		E545FB40B2C5E329F3D2B259AF4F6675 /* RangeUISlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RangeUISlider.framework; path = RangeUISlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B914F8D0E7E4E78FACDED75FD596B7 /* Bartinter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bartinter-prefix.pch"; sourceTree = "<group>"; };
+		E7741CB33B96EE26FD45F9D75FBFAA60 /* RangeUISlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RangeUISlider-Info.plist"; sourceTree = "<group>"; };
+		ECAC7E9C4C147730B630D363E8BFCF3B /* RangeUISlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangeUISlider.h; path = Source/RangeUISlider.h; sourceTree = "<group>"; };
+		EF17C4446DD4570A1C04AAA33EEF4701 /* RegularExpressionMatchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegularExpressionMatchable.swift; path = AnimatedGradientView/Classes/Extensions/RegularExpressionMatchable.swift; sourceTree = "<group>"; };
+		F0767FD8D6678470EE425CC4313F975B /* FoldingCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FoldingCell-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8E33AA61865BAA0D01C8929DBE89F87E /* Frameworks */ = {
+		483DE9C557D61E56FDD455F31A3C414B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E96E87B8CE55AD88940EC4EE401978F0 /* Foundation.framework in Frameworks */,
+				9E63CACAB5C1298BDBC0CD7A961DBC4C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5C80B7289AE8D0800E99B9F611A978D /* Frameworks */ = {
+		7469BC7548493B383118F2A3D5DCDB1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7498626D8E00C267D5588157AE302E /* Foundation.framework in Frameworks */,
+				63EF8408CD5FFB0024FF7C56EE8655C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,30 +213,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C341F226A6701D129029DD5134D1EF9 /* Support Files */ = {
+		15FCEF85526E8968FDC5E71D6180A505 /* AnimatedGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				BFB449A7914A1916275DCAA093C431EA /* AnimatedGradientView.modulemap */,
-				8BD3BE34EE7392CB81666A92C060B63D /* AnimatedGradientView.xcconfig */,
-				D0774208A6FCD73192E7C72E61F8D409 /* AnimatedGradientView-dummy.m */,
-				774181AEAEBC270859599E81C3B2077A /* AnimatedGradientView-Info.plist */,
-				92A586E4088B03D209C22728B8A330CC /* AnimatedGradientView-prefix.pch */,
-				3AFDFE63C91B62264C0A40E0B78B0136 /* AnimatedGradientView-umbrella.h */,
+				CC0A5B5338EE499F984EE04B3E6FF77F /* AnimatedGradientDirection.swift */,
+				551A81A60ED53F433F9F5105FFFE97CC /* AnimatedGradientView.swift */,
+				462B6E11B51F650B2950BB826F83235B /* AnimatedGradientViewAnimation.swift */,
+				7D033168C6F029339CF8CE11911BD5CD /* AnimatedGradientViewColor.swift */,
+				43E905ECFBEC514E557B8AC872B75FA5 /* Collection+UniqueMap.swift */,
+				EF17C4446DD4570A1C04AAA33EEF4701 /* RegularExpressionMatchable.swift */,
+				2F4DF5EFF4F5B5C5896B62A47673D1B6 /* String+RegularExpressionMatchable.swift */,
+				EC60BA4AB0E3DE3089A5E2F2AEA6B3EB /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AnimatedGradientView";
+			name = AnimatedGradientView;
+			path = AnimatedGradientView;
 			sourceTree = "<group>";
 		};
-		16C8B78F3DAA4961959AF6A62EDD43E0 /* Pods */ = {
+		2656D8D6F520D3FF9D850451B9CE272C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				700D64788266B11D3BDD7FBF4D8FA682 /* AnimatedGradientView */,
-				BCBCD48759AEC707F8FEA0133953EC12 /* Bartinter */,
-				BE63EB232F6BFB11CFE960F9FAE3CC26 /* FoldingCell */,
-				7BCF086F1C2FEC30E4BDBAEF35CC7B62 /* HGCircularSlider */,
-				A164D2EE596D048401E67B98A3E58491 /* SwiftKeychainWrapper */,
+				4E21D037855DB2A7D391D4C7F3216D12 /* RangeUISlider.modulemap */,
+				BA38B5BC49C08D6C74CF42EFC670DC19 /* RangeUISlider.xcconfig */,
+				33DCD8E22B7492E37DE5702FD8F76433 /* RangeUISlider-dummy.m */,
+				E7741CB33B96EE26FD45F9D75FBFAA60 /* RangeUISlider-Info.plist */,
+				20DCE99813BBCE555FAABF1B7D426887 /* RangeUISlider-prefix.pch */,
+				59977BE52D92D181B1EDA04F0686C123 /* RangeUISlider-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/RangeUISlider";
 			sourceTree = "<group>";
 		};
 		2ACB249B29D1060E895829C3D257CF75 /* Pods-onetodo */ = {
@@ -250,6 +260,23 @@
 			path = "Target Support Files/Pods-onetodo";
 			sourceTree = "<group>";
 		};
+		384A10AD46DE0D016CCC7C86F12B8CDB /* RangeUISlider */ = {
+			isa = PBXGroup;
+			children = (
+				54A0008E576902071EA9D9132627A0E9 /* Bar.swift */,
+				C2CC1E93E6320E21319BCBDCE4F39AFF /* Gradient.swift */,
+				0AB7CDE4E82B3F416C4EF7CE3ACB6BE5 /* Knob.swift */,
+				2A877BCFB65BD8C5AD9D7E32E682FE6B /* Progress.swift */,
+				248C42531B1AFEABA00CE16E6B8F6DFE /* RangeSelectedCalculator.swift */,
+				ECAC7E9C4C147730B630D363E8BFCF3B /* RangeUISlider.h */,
+				3DC74022A360FD3AE8DAB6D52418B9EF /* RangeUISlider.swift */,
+				4E94F6941E63568839475ECD795A63DF /* RangeUISliderDelegate.swift */,
+				2656D8D6F520D3FF9D850451B9CE272C /* Support Files */,
+			);
+			name = RangeUISlider;
+			path = RangeUISlider;
+			sourceTree = "<group>";
+		};
 		3BBB45DB8858BC17F4B462E17C57335D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,124 +285,66 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5241FC8CCDF3793CFFA2CCACCE8807DE /* Support Files */ = {
+		3C7A30FF2BDF5112031C53F5DCEA4152 /* FoldingCell */ = {
 			isa = PBXGroup;
 			children = (
-				8799D903D1E4EB4CDDE0CAC22809B76D /* Bartinter.modulemap */,
-				84FAFDA98645EFA502963240053B7CE4 /* Bartinter.xcconfig */,
-				0F779BCDBD4976FA75A4EAEA4AB4B962 /* Bartinter-dummy.m */,
-				EF72BDFEB09515CD411B7AA4E337914F /* Bartinter-Info.plist */,
-				04CDC6852BB766DE2BB9FFB8A44CA065 /* Bartinter-prefix.pch */,
-				124E9E58E72C861EA2D2E48B07E53A86 /* Bartinter-umbrella.h */,
+				0ABCBAD699418155C1F0A5D8D5A61FD0 /* FoldingCell.swift */,
+				FFE97886F85A291EFA25CD3EA289ECAE /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Bartinter";
+			name = FoldingCell;
+			path = FoldingCell;
 			sourceTree = "<group>";
 		};
-		53C91C72E07933A2551425EBBB94B354 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				03A77D755987539EE9115C70EF557F60 /* FoldingCell.modulemap */,
-				B4DAD34094C86CD6C845AB706E974682 /* FoldingCell.xcconfig */,
-				C53B952543CD565913B01017341F3A58 /* FoldingCell-dummy.m */,
-				5DE21784DF8395C944CA0C6C8D98E0D0 /* FoldingCell-Info.plist */,
-				80BD658E0682C8C444CA56ED37ADD627 /* FoldingCell-prefix.pch */,
-				170FA6BCE5DC4AC22AFE340BB1613BBB /* FoldingCell-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FoldingCell";
-			sourceTree = "<group>";
-		};
-		588F79499A40B4898DB979D2A99F152A /* Products */ = {
+		4A903657F72DA537167A10928D6615D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				AA32408D435DD3D8C621B25799CE2288 /* AnimatedGradientView.framework */,
 				76DDEDAABE05A7409E36E3920EA90F3C /* Bartinter.framework */,
 				77144A8D35D7BE9861C69E2ED1441FA8 /* FoldingCell.framework */,
-				DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */,
 				7D8D3AB8B6A67F9E22778773A41000F0 /* Pods_onetodo.framework */,
+				E545FB40B2C5E329F3D2B259AF4F6675 /* RangeUISlider.framework */,
 				5069D199AB328CCD047E61C632CD7C32 /* SwiftKeychainWrapper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67938E4AD35C4CD4632AEBCDA2851A69 /* Support Files */ = {
+		57F57072BE72A9E462AD113A0EA0450A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8D6F132035A583C75E7774DA2ED2756 /* SwiftKeychainWrapper.modulemap */,
-				BE67FC9FC33A759B14BF5A127C1441DF /* SwiftKeychainWrapper.xcconfig */,
-				D190D84A277F2A01F24AB7F5C1D31BBF /* SwiftKeychainWrapper-dummy.m */,
-				7CF4C82F0EA537777B4A340BCE8714DA /* SwiftKeychainWrapper-Info.plist */,
-				5972F6B083C883FA12BC1E32A6B13AD7 /* SwiftKeychainWrapper-prefix.pch */,
-				1C78E207CF4F6F6B22E0BBE5F3D0A061 /* SwiftKeychainWrapper-umbrella.h */,
+				D2B661FB5D26F6A7DF5C58C5501E81D9 /* SwiftKeychainWrapper.modulemap */,
+				26036945F75C9D837A135812B9182327 /* SwiftKeychainWrapper.xcconfig */,
+				1000B15D24C42842075533BCE5C9B9BA /* SwiftKeychainWrapper-dummy.m */,
+				820AE63F93F0B284CFCE31EE28C74A72 /* SwiftKeychainWrapper-Info.plist */,
+				CEAD5E6ACEF97C894FD6578D2A38EB52 /* SwiftKeychainWrapper-prefix.pch */,
+				01FAF55421B4072E3E6FCF44632CAC84 /* SwiftKeychainWrapper-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftKeychainWrapper";
 			sourceTree = "<group>";
 		};
-		700D64788266B11D3BDD7FBF4D8FA682 /* AnimatedGradientView */ = {
+		60F0D45309B13CD9665C24C48EF04A24 /* SwiftKeychainWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				12CBCB9BF3DB47ECB69C9A4E2D566989 /* AnimatedGradientDirection.swift */,
-				42619EDCE70C2C9181444D6C5C588098 /* AnimatedGradientView.swift */,
-				CCF316EFC3FC9281E7F4FF20539BD8FC /* AnimatedGradientViewAnimation.swift */,
-				EE70AA1EFF75004B52AA959E346DB6F7 /* AnimatedGradientViewColor.swift */,
-				EA97E4DB1689C68BAE3D40B6EE298C31 /* Collection+UniqueMap.swift */,
-				21C92B6B24D18EA9BEBE794D1552CD27 /* RegularExpressionMatchable.swift */,
-				82A513DC49448E78340A191D33808CBD /* String+RegularExpressionMatchable.swift */,
-				0C341F226A6701D129029DD5134D1EF9 /* Support Files */,
-			);
-			name = AnimatedGradientView;
-			path = AnimatedGradientView;
-			sourceTree = "<group>";
-		};
-		7BCF086F1C2FEC30E4BDBAEF35CC7B62 /* HGCircularSlider */ = {
-			isa = PBXGroup;
-			children = (
-				E96838511A3B9D3085E75AEE9D30A88C /* CircularSlider.swift */,
-				8CF918E924513EB161CA4C4140B16266 /* CircularSlider+Draw.swift */,
-				5DCCD738C890AD4A834FAF51B2CB17DD /* CircularSliderHelper.swift */,
-				6F673AF5FF6D70293F590D5245F8F156 /* MidPointCircularSlider.swift */,
-				DA64DDA974EB0AE51694D41294F20E1A /* RangeCircularSlider.swift */,
-				D38142A09CB2D2A60A20216A55600645 /* Support Files */,
-			);
-			name = HGCircularSlider;
-			path = HGCircularSlider;
-			sourceTree = "<group>";
-		};
-		A164D2EE596D048401E67B98A3E58491 /* SwiftKeychainWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				1FC436A7C65E5F7A39E5BE5A482AE777 /* KeychainItemAccessibility.swift */,
-				8285E95F0D5EC4C9435F5147601A4BFF /* KeychainWrapper.swift */,
-				55A834F4113625CFB6D0095421980FBB /* SwiftKeychainWrapper.h */,
-				67938E4AD35C4CD4632AEBCDA2851A69 /* Support Files */,
+				1D59C5D449BBBF4FF55825F33C1F2D07 /* KeychainItemAccessibility.swift */,
+				1AE9A0800C1B0E80F1D0E9A736263F4C /* KeychainWrapper.swift */,
+				945367D83BB697B27C130DF19871F84D /* SwiftKeychainWrapper.h */,
+				57F57072BE72A9E462AD113A0EA0450A /* Support Files */,
 			);
 			name = SwiftKeychainWrapper;
 			path = SwiftKeychainWrapper;
 			sourceTree = "<group>";
 		};
-		BCBCD48759AEC707F8FEA0133953EC12 /* Bartinter */ = {
+		941F33A73C553252EDE4F95459E4D772 /* Bartinter */ = {
 			isa = PBXGroup;
 			children = (
-				428AB2166C5AC2C345CA128F697C4989 /* Bartinter.swift */,
-				A4B8FFA22A38DA61DC073D3DAA45AEC9 /* Throttler.swift */,
-				57A4F96DE278D6BA7E2E7E7C579EBF41 /* UIKitSwizzling.swift */,
-				F57135F1CAD6A00ADEF091FCEA4EF95B /* UIViewController+Bartinter.swift */,
-				5241FC8CCDF3793CFFA2CCACCE8807DE /* Support Files */,
+				0CB194CD11B8E3A4D0C51F15B7F86940 /* Bartinter.swift */,
+				14C36F1FEEB5D335B901892EF2ADF23B /* Throttler.swift */,
+				DAF7A7F518346C6477CE895E42DC8F8A /* UIKitSwizzling.swift */,
+				C1A2BC59AF2F9BCA1FD47E53CE243551 /* UIViewController+Bartinter.swift */,
+				EFD1AFA6B9BD343E3F11D2B3F0F21CEA /* Support Files */,
 			);
 			name = Bartinter;
 			path = Bartinter;
-			sourceTree = "<group>";
-		};
-		BE63EB232F6BFB11CFE960F9FAE3CC26 /* FoldingCell */ = {
-			isa = PBXGroup;
-			children = (
-				01E206A874DA64BDCE86E2B7F65C8DC4 /* FoldingCell.swift */,
-				53C91C72E07933A2551425EBBB94B354 /* Support Files */,
-			);
-			name = FoldingCell;
-			path = FoldingCell;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -386,13 +355,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C6F20817B3BDF90D3A6BD51E26F0687E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15FCEF85526E8968FDC5E71D6180A505 /* AnimatedGradientView */,
+				941F33A73C553252EDE4F95459E4D772 /* Bartinter */,
+				3C7A30FF2BDF5112031C53F5DCEA4152 /* FoldingCell */,
+				384A10AD46DE0D016CCC7C86F12B8CDB /* RangeUISlider */,
+				60F0D45309B13CD9665C24C48EF04A24 /* SwiftKeychainWrapper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				16C8B78F3DAA4961959AF6A62EDD43E0 /* Pods */,
-				588F79499A40B4898DB979D2A99F152A /* Products */,
+				C6F20817B3BDF90D3A6BD51E26F0687E /* Pods */,
+				4A903657F72DA537167A10928D6615D3 /* Products */,
 				3BBB45DB8858BC17F4B462E17C57335D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -405,18 +386,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D38142A09CB2D2A60A20216A55600645 /* Support Files */ = {
+		EC60BA4AB0E3DE3089A5E2F2AEA6B3EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FDCCB283EE857DF4D7B3CDAEB4581CFE /* HGCircularSlider.modulemap */,
-				47C39D629CC7466FAF7DA93436E365ED /* HGCircularSlider.xcconfig */,
-				F4F8C608C159309CA7C271A1F4D64E68 /* HGCircularSlider-dummy.m */,
-				7D5D99EA558BDD7BB0D9BBCCEFC8A299 /* HGCircularSlider-Info.plist */,
-				0028A9FC3AC7796435C2F9A694C87F53 /* HGCircularSlider-prefix.pch */,
-				AECC76A6FFD7D151CA93ED286FC94B07 /* HGCircularSlider-umbrella.h */,
+				4CF2A8701832EBE21E4A7BBA79D947A3 /* AnimatedGradientView.modulemap */,
+				C1BD4D7779732E258F1E66F3CBF111B4 /* AnimatedGradientView.xcconfig */,
+				294AA0C8C565500EB6F09D5C04EF3419 /* AnimatedGradientView-dummy.m */,
+				0F89DDB71418F40CD7D08DA69FF438D2 /* AnimatedGradientView-Info.plist */,
+				75D5F994BF6568C90BF507FA9C6731A0 /* AnimatedGradientView-prefix.pch */,
+				4EF97728C31B9892D2CA6F5EBE32B633 /* AnimatedGradientView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/HGCircularSlider";
+			path = "../Target Support Files/AnimatedGradientView";
+			sourceTree = "<group>";
+		};
+		EFD1AFA6B9BD343E3F11D2B3F0F21CEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F6516159518B05BA4E0AB3D1E65FE90 /* Bartinter.modulemap */,
+				989EB32795957DF2C9D8728833970435 /* Bartinter.xcconfig */,
+				B83D031F685C28971D9977E72478940A /* Bartinter-dummy.m */,
+				639BB469AC840E11CE20192FFC175DAE /* Bartinter-Info.plist */,
+				E6B914F8D0E7E4E78FACDED75FD596B7 /* Bartinter-prefix.pch */,
+				2B532AA18BCA41F3B2D24AAE1FFBAF30 /* Bartinter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bartinter";
+			sourceTree = "<group>";
+		};
+		FFE97886F85A291EFA25CD3EA289ECAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9BAF257A49CC48FE03AF7BA445D2520 /* FoldingCell.modulemap */,
+				3920F7BB2C126EC2F49E3180A6AE8DE9 /* FoldingCell.xcconfig */,
+				0CD3E642B42F3978A5AD21DFD0BD65F8 /* FoldingCell-dummy.m */,
+				F0767FD8D6678470EE425CC4313F975B /* FoldingCell-Info.plist */,
+				175630FC7D66B95BF31685569B9466A2 /* FoldingCell-prefix.pch */,
+				15209942E83791DED8443FD90A5C510E /* FoldingCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoldingCell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,19 +447,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		767C99A70BD3DBCFB9160917392C8EB6 /* Headers */ = {
+		8747B95FA6C8BB86BD2B3A3EBF62CD9E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5E466C9BEE9CF508910C3D1782A8382 /* HGCircularSlider-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76CF21F41117F1EB4D153D644D4EBDC5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5883988266FD85F8F679DBC599A9E64E /* Pods-onetodo-umbrella.h in Headers */,
+				C709B9E3022CEE64E587B14678FA8661 /* Pods-onetodo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,9 +472,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E75F3226AC18AEFE4DE504630E98EAC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D212E84E2830480D9FE6FCAFD7E64A9 /* RangeUISlider-umbrella.h in Headers */,
+				D9145E8637ACBC28A3ECAA8D034C8100 /* RangeUISlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		285DE33887F9D6312479228E377D7435 /* RangeUISlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F394A9B55A0E0B5997B1891D3801B1E /* Build configuration list for PBXNativeTarget "RangeUISlider" */;
+			buildPhases = (
+				E75F3226AC18AEFE4DE504630E98EAC6 /* Headers */,
+				D7177FB53966752F9CEB4FDFE9352B77 /* Sources */,
+				7469BC7548493B383118F2A3D5DCDB1D /* Frameworks */,
+				B44D26E0EF2A4690061189AD1A6BDCC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RangeUISlider;
+			productName = RangeUISlider;
+			productReference = E545FB40B2C5E329F3D2B259AF4F6675 /* RangeUISlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6B7C22957C48BAC70092FB33A0F0893C /* AnimatedGradientView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EF7E42B710D8768B98BD0CA95B2433A /* Build configuration list for PBXNativeTarget "AnimatedGradientView" */;
@@ -490,24 +518,6 @@
 			name = AnimatedGradientView;
 			productName = AnimatedGradientView;
 			productReference = AA32408D435DD3D8C621B25799CE2288 /* AnimatedGradientView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 830DCB0A097257D0F9E1D557676CFDE1 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */;
-			buildPhases = (
-				767C99A70BD3DBCFB9160917392C8EB6 /* Headers */,
-				6978B58842DD4999449ECEB578D444D9 /* Sources */,
-				8E33AA61865BAA0D01C8929DBE89F87E /* Frameworks */,
-				5F9A73F81E071C4227DCD8F475E6B09B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HGCircularSlider;
-			productName = HGCircularSlider;
-			productReference = DAF5270C2A5FC4F64F8B3718BF0E7429 /* HGCircularSlider.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A983770812F919D34BAD7D2C5A7EA95C /* FoldingCell */ = {
@@ -566,21 +576,21 @@
 		};
 		D46352911AD083CFF034BDF04FDAC3FE /* Pods-onetodo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5335C818824205A47C429B2B27C99A9 /* Build configuration list for PBXNativeTarget "Pods-onetodo" */;
+			buildConfigurationList = 23BDF0A915068A1B70DA8BA91F6EF058 /* Build configuration list for PBXNativeTarget "Pods-onetodo" */;
 			buildPhases = (
-				76CF21F41117F1EB4D153D644D4EBDC5 /* Headers */,
-				96A1E559030997FA38A61BDF2BDA60E9 /* Sources */,
-				A5C80B7289AE8D0800E99B9F611A978D /* Frameworks */,
-				BBA374524C98DA5866ED4EBA39E320C3 /* Resources */,
+				8747B95FA6C8BB86BD2B3A3EBF62CD9E /* Headers */,
+				97DA0B86E5F1DA17F60D777313E78615 /* Sources */,
+				483DE9C557D61E56FDD455F31A3C414B /* Frameworks */,
+				553EB606B4FD81A518BB722A9D5CBC99 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D90F570231B2AA9A52EE53F51CD36675 /* PBXTargetDependency */,
-				FAF3793E1E987A6D924E9B8FB387A985 /* PBXTargetDependency */,
-				D689D18D2E6CB1A522132D188F212710 /* PBXTargetDependency */,
-				246DD39ADF096361AF7760BA8E0E430C /* PBXTargetDependency */,
-				8352AC9338DD9D22D1BC81F5887D52B2 /* PBXTargetDependency */,
+				C47D5BFEFCD5483E00E84FAD305373B8 /* PBXTargetDependency */,
+				AF8A1A967216F46F7D5752EBFBA90A15 /* PBXTargetDependency */,
+				06692BD3614C26796FF5EFD0678AA4BF /* PBXTargetDependency */,
+				F763AB2F8DD30A09A272411632DCC98D /* PBXTargetDependency */,
+				172F732EA2FAFB69789690E7EF23B9D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-onetodo";
 			productName = "Pods-onetodo";
@@ -605,22 +615,22 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 588F79499A40B4898DB979D2A99F152A /* Products */;
+			productRefGroup = 4A903657F72DA537167A10928D6615D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6B7C22957C48BAC70092FB33A0F0893C /* AnimatedGradientView */,
 				ACA30436A6FCE848E06FEECE288E6E8E /* Bartinter */,
 				A983770812F919D34BAD7D2C5A7EA95C /* FoldingCell */,
-				82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */,
 				D46352911AD083CFF034BDF04FDAC3FE /* Pods-onetodo */,
+				285DE33887F9D6312479228E377D7435 /* RangeUISlider */,
 				CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F9A73F81E071C4227DCD8F475E6B09B /* Resources */ = {
+		553EB606B4FD81A518BB722A9D5CBC99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -641,7 +651,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBA374524C98DA5866ED4EBA39E320C3 /* Resources */ = {
+		B44D26E0EF2A4690061189AD1A6BDCC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -675,19 +685,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6978B58842DD4999449ECEB578D444D9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4927D68F6D455229FC1D386DEA83466 /* CircularSlider+Draw.swift in Sources */,
-				FFAA32FE26C07E3C3486F608F471FC8A /* CircularSlider.swift in Sources */,
-				33129701D6A331F40BEC83251A91EFE6 /* CircularSliderHelper.swift in Sources */,
-				701C2F5A876C21D45629A096FDC17081 /* HGCircularSlider-dummy.m in Sources */,
-				23AE8D7B15AE823A76B41ACF746FC91D /* MidPointCircularSlider.swift in Sources */,
-				E4606FAE0CFBA2C4BA46647307ACD499 /* RangeCircularSlider.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7CAA6D87558AFF7FDC4A3133693E9C12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -703,11 +700,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96A1E559030997FA38A61BDF2BDA60E9 /* Sources */ = {
+		97DA0B86E5F1DA17F60D777313E78615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0323327F0DC6DD0972E68B61183260E /* Pods-onetodo-dummy.m in Sources */,
+				D5F1724B3F8189445377D0B56ABA8AB1 /* Pods-onetodo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,6 +714,21 @@
 			files = (
 				6C714434BB72614FDC72372E9EBD4837 /* FoldingCell-dummy.m in Sources */,
 				818923762A26DD23DFDA8338039FC7A9 /* FoldingCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7177FB53966752F9CEB4FDFE9352B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB03987A2A65812E61484B71BE810017 /* Bar.swift in Sources */,
+				965903D237457DED7BDF582CFA0DCBBB /* Gradient.swift in Sources */,
+				4631F0F79B70C7B0ACD3A4DD95F762DD /* Knob.swift in Sources */,
+				3D1C82FE382B4C753316C2CE62DDFBA6 /* Progress.swift in Sources */,
+				D0DCAD032262D9D1CAABBA176F6FB0D2 /* RangeSelectedCalculator.swift in Sources */,
+				2BD65948F65794B11B6D80B2BF11F83E /* RangeUISlider-dummy.m in Sources */,
+				C998079BC3778BFFB814E7070D9C8BCA /* RangeUISlider.swift in Sources */,
+				84CE24D5D698CA8848F7E06D0AD6FC67 /* RangeUISliderDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,42 +747,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		246DD39ADF096361AF7760BA8E0E430C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HGCircularSlider;
-			target = 82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */;
-			targetProxy = C1542083BB2D0A64F8D6ED7CE046065E /* PBXContainerItemProxy */;
-		};
-		8352AC9338DD9D22D1BC81F5887D52B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftKeychainWrapper;
-			target = CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */;
-			targetProxy = 9268887E3CE97F6CCF02987DF1AE94DE /* PBXContainerItemProxy */;
-		};
-		D689D18D2E6CB1A522132D188F212710 /* PBXTargetDependency */ = {
+		06692BD3614C26796FF5EFD0678AA4BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FoldingCell;
 			target = A983770812F919D34BAD7D2C5A7EA95C /* FoldingCell */;
-			targetProxy = 81783A7C9B525AE4DFD7F14589EEA310 /* PBXContainerItemProxy */;
+			targetProxy = 17D6FD33E2907392AC36B1743B4DC967 /* PBXContainerItemProxy */;
 		};
-		D90F570231B2AA9A52EE53F51CD36675 /* PBXTargetDependency */ = {
+		172F732EA2FAFB69789690E7EF23B9D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AnimatedGradientView;
-			target = 6B7C22957C48BAC70092FB33A0F0893C /* AnimatedGradientView */;
-			targetProxy = 2BB62144F872308A96D5ED66D307FC09 /* PBXContainerItemProxy */;
+			name = SwiftKeychainWrapper;
+			target = CF903DF43E111410ECA0C288D36FA21A /* SwiftKeychainWrapper */;
+			targetProxy = F65DDC1E564E84BFE6C75260D4D19BF7 /* PBXContainerItemProxy */;
 		};
-		FAF3793E1E987A6D924E9B8FB387A985 /* PBXTargetDependency */ = {
+		AF8A1A967216F46F7D5752EBFBA90A15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Bartinter;
 			target = ACA30436A6FCE848E06FEECE288E6E8E /* Bartinter */;
-			targetProxy = 92D091FB7D595ACAC4E52C6B9C1178A1 /* PBXContainerItemProxy */;
+			targetProxy = ED51029DDBD852C1824D7DEF531A64CA /* PBXContainerItemProxy */;
+		};
+		C47D5BFEFCD5483E00E84FAD305373B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedGradientView;
+			target = 6B7C22957C48BAC70092FB33A0F0893C /* AnimatedGradientView */;
+			targetProxy = 9E17EBF187B9A1A2D46850DEE46F3B5A /* PBXContainerItemProxy */;
+		};
+		F763AB2F8DD30A09A272411632DCC98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangeUISlider;
+			target = 285DE33887F9D6312479228E377D7435 /* RangeUISlider */;
+			targetProxy = F88046F6B5694CD0F8E8EF49A71C2E37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0D68731B1708A659462C629F01084692 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE67FC9FC33A759B14BF5A127C1441DF /* SwiftKeychainWrapper.xcconfig */;
+			baseConfigurationReference = 26036945F75C9D837A135812B9182327 /* SwiftKeychainWrapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -803,9 +815,44 @@
 			};
 			name = Debug;
 		};
+		212B10C74D831D6E190F5A9C1AE7C774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA38B5BC49C08D6C74CF42EFC670DC19 /* RangeUISlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangeUISlider/RangeUISlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangeUISlider/RangeUISlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RangeUISlider/RangeUISlider.modulemap";
+				PRODUCT_MODULE_NAME = RangeUISlider;
+				PRODUCT_NAME = RangeUISlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		43CE06E37A8B99DB615367984EBD4567 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE67FC9FC33A759B14BF5A127C1441DF /* SwiftKeychainWrapper.xcconfig */;
+			baseConfigurationReference = 26036945F75C9D837A135812B9182327 /* SwiftKeychainWrapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -839,9 +886,47 @@
 			};
 			name = Release;
 		};
+		46216C84C2CA1976BFFF42AC2A470F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B06E47347C8153F1F210838CBD3302 /* Pods-onetodo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-onetodo/Pods-onetodo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-onetodo/Pods-onetodo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4D4331D9B1B9392C0928E0B077C02A17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BD3BE34EE7392CB81666A92C060B63D /* AnimatedGradientView.xcconfig */;
+			baseConfigurationReference = C1BD4D7779732E258F1E66F3CBF111B4 /* AnimatedGradientView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -877,7 +962,7 @@
 		};
 		542A94E3C85A26EB85CAF66E95E83B07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84FAFDA98645EFA502963240053B7CE4 /* Bartinter.xcconfig */;
+			baseConfigurationReference = 989EB32795957DF2C9D8728833970435 /* Bartinter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -911,43 +996,7 @@
 			};
 			name = Release;
 		};
-		66FD5973147DD8E79C2E42F1E25FB71B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4DAD34094C86CD6C845AB706E974682 /* FoldingCell.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FoldingCell/FoldingCell-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
-				PRODUCT_MODULE_NAME = FoldingCell;
-				PRODUCT_NAME = FoldingCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		706A057E4252D11AD3C358B5A9C27933 /* Debug */ = {
+		5B24E2A3AE35F18AF8949625945D003E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B0A41A492BB8398998E3823C05222FDF /* Pods-onetodo.debug.xcconfig */;
 			buildSettings = {
@@ -984,9 +1033,45 @@
 			};
 			name = Debug;
 		};
+		66FD5973147DD8E79C2E42F1E25FB71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3920F7BB2C126EC2F49E3180A6AE8DE9 /* FoldingCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingCell/FoldingCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
+				PRODUCT_MODULE_NAME = FoldingCell;
+				PRODUCT_NAME = FoldingCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		825BE2CE3D23A1DC33CA882FF2DD3DC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4DAD34094C86CD6C845AB706E974682 /* FoldingCell.xcconfig */;
+			baseConfigurationReference = 3920F7BB2C126EC2F49E3180A6AE8DE9 /* FoldingCell.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1018,42 +1103,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8EA26ED18F8407626860EF4D2CA9E6E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47C39D629CC7466FAF7DA93436E365ED /* HGCircularSlider.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
-				PRODUCT_MODULE_NAME = HGCircularSlider;
-				PRODUCT_NAME = HGCircularSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1181,7 +1230,7 @@
 		};
 		B9CE50D9D26680CF19C4C35D2A4F0988 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BD3BE34EE7392CB81666A92C060B63D /* AnimatedGradientView.xcconfig */;
+			baseConfigurationReference = C1BD4D7779732E258F1E66F3CBF111B4 /* AnimatedGradientView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1214,82 +1263,9 @@
 			};
 			name = Debug;
 		};
-		C01E4D5B0A2FF077476D0C8BA1DA0220 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B06E47347C8153F1F210838CBD3302 /* Pods-onetodo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-onetodo/Pods-onetodo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-onetodo/Pods-onetodo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DAE817FB5393244135FCAA32A0CDC4F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47C39D629CC7466FAF7DA93436E365ED /* HGCircularSlider.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
-				PRODUCT_MODULE_NAME = HGCircularSlider;
-				PRODUCT_NAME = HGCircularSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E6FDF298EA13106E6F817A30BB0D8FA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84FAFDA98645EFA502963240053B7CE4 /* Bartinter.xcconfig */;
+			baseConfigurationReference = 989EB32795957DF2C9D8728833970435 /* Bartinter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1322,6 +1298,42 @@
 			};
 			name = Debug;
 		};
+		EC6B17F11287CC16D68B038F691A9E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA38B5BC49C08D6C74CF42EFC670DC19 /* RangeUISlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangeUISlider/RangeUISlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangeUISlider/RangeUISlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RangeUISlider/RangeUISlider.modulemap";
+				PRODUCT_MODULE_NAME = RangeUISlider;
+				PRODUCT_NAME = RangeUISlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1334,20 +1346,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		23BDF0A915068A1B70DA8BA91F6EF058 /* Build configuration list for PBXNativeTarget "Pods-onetodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B24E2A3AE35F18AF8949625945D003E /* Debug */,
+				46216C84C2CA1976BFFF42AC2A470F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		830DCB0A097257D0F9E1D557676CFDE1 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DAE817FB5393244135FCAA32A0CDC4F8 /* Debug */,
-				8EA26ED18F8407626860EF4D2CA9E6E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1370,20 +1382,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9F394A9B55A0E0B5997B1891D3801B1E /* Build configuration list for PBXNativeTarget "RangeUISlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212B10C74D831D6E190F5A9C1AE7C774 /* Debug */,
+				EC6B17F11287CC16D68B038F691A9E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A073F646C524198D391F3FF9FE499E5A /* Build configuration list for PBXNativeTarget "FoldingCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				825BE2CE3D23A1DC33CA882FF2DD3DC4 /* Debug */,
 				66FD5973147DD8E79C2E42F1E25FB71B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5335C818824205A47C429B2B27C99A9 /* Build configuration list for PBXNativeTarget "Pods-onetodo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				706A057E4252D11AD3C358B5A9C27933 /* Debug */,
-				C01E4D5B0A2FF077476D0C8BA1DA0220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
