@@ -109,14 +109,17 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 							   toItem: nil,
 							   attribute: .notAnAttribute,
 							   multiplier: 1.0,
-							   constant: 50)
+							   constant: 600)
 		])
 	}
 	
+	//	Get the values from both sides of the slider.
 	func rangeChangeFinished(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
 		print("FINISH min: \(minValueSelected) -  max: \(maxValueSelected) - identifier: \(slider.identifier)")
+		// TODO: Implement slider logic to set a timer.
 	}
 	
+	//	Changing values from both sides of the slider.
 	func rangeIsChanging(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
 		print("min: \(minValueSelected) -  max: \(maxValueSelected) - identifier: \(slider.identifier)")
 	}
@@ -127,6 +130,4 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	}
 	
 	//	IBActions.
-	
-	
 }
