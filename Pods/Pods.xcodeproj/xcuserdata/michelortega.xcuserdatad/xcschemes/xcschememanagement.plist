@@ -25,14 +25,14 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>HGCircularSlider.xcscheme</key>
+		<key>Pods-onetodo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-onetodo.xcscheme</key>
+		<key>RangeUISlider.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

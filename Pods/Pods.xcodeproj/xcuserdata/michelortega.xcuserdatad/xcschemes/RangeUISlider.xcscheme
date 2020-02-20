@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82EEAE7DB07C6F17150BFE2EAD014CB2"
-               BuildableName = "HGCircularSlider.framework"
-               BlueprintName = "HGCircularSlider"
+               BlueprintIdentifier = "285DE33887F9D6312479228E377D7435"
+               BuildableName = "RangeUISlider.framework"
+               BlueprintName = "RangeUISlider"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
