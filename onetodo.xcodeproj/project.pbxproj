@@ -10,6 +10,8 @@
 		50051ABC23F19332002CA531 /* NavigationBarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50051ABB23F19332002CA531 /* NavigationBarHelper.swift */; };
 		50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */; };
 		5039CA6A23F438E800640835 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039CA6923F438E700640835 /* UIColor+Ext.swift */; };
+		503B1720240010640084E54C /* TimeSliderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B171F240010640084E54C /* TimeSliderHelper.swift */; };
+		503B1722240010A40084E54C /* TimeSliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B1721240010A40084E54C /* TimeSliderModel.swift */; };
 		5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030392368D7BB00E9F21A /* AppDelegate.swift */; };
 		5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303B2368D7BB00E9F21A /* SceneDelegate.swift */; };
 		5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303D2368D7BB00E9F21A /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 		50051ABB23F19332002CA531 /* NavigationBarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarHelper.swift; sourceTree = "<group>"; };
 		50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTaskLabelModel.swift; sourceTree = "<group>"; };
 		5039CA6923F438E700640835 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		503B171F240010640084E54C /* TimeSliderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSliderHelper.swift; sourceTree = "<group>"; };
+		503B1721240010A40084E54C /* TimeSliderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSliderModel.swift; sourceTree = "<group>"; };
 		505030362368D7BB00E9F21A /* onetodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onetodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030392368D7BB00E9F21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5050303B2368D7BB00E9F21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				50051ABB23F19332002CA531 /* NavigationBarHelper.swift */,
+				503B171F240010640084E54C /* TimeSliderHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			children = (
 				505772E923A34E6B0016CF47 /* TaskModel.swift */,
 				50077EB123DDE6B100A188F5 /* DetailTaskLabelModel.swift */,
+				503B1721240010A40084E54C /* TimeSliderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -338,9 +344,11 @@
 				50B4D98E23CB768D001A1C98 /* TaskDetailViewController.swift in Sources */,
 				50051ABC23F19332002CA531 /* NavigationBarHelper.swift in Sources */,
 				505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */,
+				503B1722240010A40084E54C /* TimeSliderModel.swift in Sources */,
 				5054C7E2236A102800F87FA7 /* TaskPresenter.swift in Sources */,
 				506FB55623EB12E6000311D5 /* TimePresenter.swift in Sources */,
 				505030442368D7BB00E9F21A /* onetodo.xcdatamodeld in Sources */,
+				503B1720240010640084E54C /* TimeSliderHelper.swift in Sources */,
 				50077EB223DDE6B100A188F5 /* DetailTaskLabelModel.swift in Sources */,
 				5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */,
 				5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */,
