@@ -10,6 +10,17 @@ import Foundation
 import UIKit
 
 class TimeSliderModel {
-	// TODO: Implement logic for the Time Slider.
+	//	TODO: Implement logic for the Time Slider.
 	
+	
+	//	Properties.
+	var a: Int
+	var b: Int
+	var c: Int
+	
+	//	Methods.
+	func estimateTime() {
+	//	A - B = C
+		
+	}
 }
