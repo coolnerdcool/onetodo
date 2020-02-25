@@ -10,9 +10,7 @@ import Foundation
 import UIKit
 
 class TimeSliderModel {
-	//	TODO: Implement logic for the Time Slider.
-	
-	
+	//	TODO: Implement logic for the Time Slider.	
 	//	Properties.
 
 	
