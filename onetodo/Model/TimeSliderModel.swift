@@ -14,13 +14,18 @@ class TimeSliderModel {
 	
 	
 	//	Properties.
-	var a: Int
-	var b: Int
-	var c: Int
+
 	
 	//	Methods.
-	func estimateTime() {
-	//	A - B = C
+	
+	/// Make value needed to estimate time for TimeSlider.
+	/// - Parameters:
+	///   - left: Left side value from the slider point.
+	///   - right: Right side value from the slider point.
+	func estimateTime(to left: Double,  to right: Double) -> Double {
+		//	A - B = C
+		let valueToReturn = right - left
 		
+		return valueToReturn
 	}
 }
