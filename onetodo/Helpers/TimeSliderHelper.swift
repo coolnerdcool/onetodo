@@ -11,5 +11,9 @@ import UIKit
 
 class TimeSliderHelper {
 	//TODO: Create the heleper values for the Time Slider.
+	
+	func createSliderLabels() {
+		
+	}
 
 }
