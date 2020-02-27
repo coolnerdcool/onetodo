@@ -15,6 +15,9 @@ import UIKit
 class TimeViewController: UIViewController, RangeUISliderDelegate {
 	
 	// IBOutlets.
+	@IBOutlet weak var timerButton: UIButton!
+	
+	
 	
 	//	Properties.
 	let navigationBarHelper: NavigationBarHelper = NavigationBarHelper()
