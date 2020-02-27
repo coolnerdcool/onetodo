@@ -105,10 +105,27 @@
                     <view key="view" contentMode="scaleToFill" id="09y-Nb-4pL" customClass="AnimatedGradientView" customModule="AnimatedGradientView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lW2-p4-5VQ">
+                                <rect key="frame" x="72" y="630" width="270" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lW2-p4-5VQ" secondAttribute="height" multiplier="9:1" id="Qx5-Vj-DBP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NaA-rN-PLF" firstAttribute="bottom" secondItem="lW2-p4-5VQ" secondAttribute="bottom" constant="202" id="3y8-57-d8G"/>
+                            <constraint firstItem="NaA-rN-PLF" firstAttribute="trailing" secondItem="lW2-p4-5VQ" secondAttribute="trailing" constant="72" id="Vhi-aG-EEt"/>
+                            <constraint firstItem="lW2-p4-5VQ" firstAttribute="centerX" secondItem="09y-Nb-4pL" secondAttribute="centerX" id="tpv-oS-Pz0"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NaA-rN-PLF"/>
                     </view>
                     <navigationItem key="navigationItem" id="SiB-Kp-DuK"/>
+                    <connections>
+                        <outlet property="timerButton" destination="lW2-p4-5VQ" id="3TL-Q7-78M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i0E-jB-9id" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
