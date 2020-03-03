@@ -29,6 +29,7 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		super.viewDidLoad()
 		
 		self.setBackBtnCustom()
+		self.setButton()
 		self.setRangeSlider()
 	}
 	
@@ -53,6 +54,11 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		let barButton = UIBarButtonItem(customView: backLeftBtn)
 		self.navigationItem.leftBarButtonItem = barButton
 		
+	}
+	
+	func setButton() {
+		//TODO:	-	Make custom button title.
+		timerButton.setTitle("Start timer", for: .normal)
 	}
 	
 	func setRangeSlider() {
