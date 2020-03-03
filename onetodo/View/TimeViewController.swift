@@ -21,6 +21,7 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	
 	//	Properties.
 	let navigationBarHelper: NavigationBarHelper = NavigationBarHelper()
+	let timerSliderModel = TimeSliderModel()	//	All logic for slider values.
 	
 	private var rangeSlider: RangeUISlider!
 	
@@ -56,9 +57,19 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		
 	}
 	
+	/// Create al the elements and properties for the button. Call it then.
 	func setButton() {
+		
 		//TODO:	-	Make custom button title.
 		timerButton.setTitle("Start timer", for: .normal)
+	}
+	
+	/// Show the value from time slider.
+	func setLabel() {
+		
+		//TODO:	-	Return the sum of both value points from the slider.
+		var leftValue: Double	//	Left value point from slider
+		var rightValue: Double
 	}
 	
 	func setRangeSlider() {
