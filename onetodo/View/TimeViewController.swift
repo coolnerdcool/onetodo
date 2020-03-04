@@ -61,7 +61,8 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	func setButton() {
 		
 		//TODO:	-	Make custom button title.
-		timerButton.setTitle("Start timer", for: .normal)
+		timerButton.setTitle("Touch here to start timer", for: .normal)
+		timerButton.tintColor = .white
 	}
 	
 	/// Show the value from time slider.
