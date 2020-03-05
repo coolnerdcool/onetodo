@@ -16,6 +16,8 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	
 	// IBOutlets.
 	@IBOutlet weak var timerButton: UIButton!
+	@IBOutlet weak var timerLabel: UILabel!
+	
 	
 	
 	
@@ -31,6 +33,7 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		
 		self.setBackBtnCustom()
 		self.setButton()
+		self.setLabel()
 		self.setRangeSlider()
 	}
 	
@@ -71,6 +74,8 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		//TODO:	-	Return the sum of both value points from the slider.
 		var leftValue: Double	//	Left value point from slider
 		var rightValue: Double
+		
+		timerLabel.textColor = .white
 	}
 	
 	func setRangeSlider() {
