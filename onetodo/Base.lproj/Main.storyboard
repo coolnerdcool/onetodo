@@ -113,11 +113,23 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3s-hq-DUm">
+                                <rect key="frame" x="132" y="560" width="150" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="o3s-hq-DUm" secondAttribute="height" multiplier="22:3" id="OR8-EP-xou"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="NaA-rN-PLF" firstAttribute="bottom" secondItem="lW2-p4-5VQ" secondAttribute="bottom" constant="202" id="3y8-57-d8G"/>
+                            <constraint firstItem="NaA-rN-PLF" firstAttribute="trailing" secondItem="o3s-hq-DUm" secondAttribute="trailing" constant="132" id="7UF-Kt-NfL"/>
+                            <constraint firstItem="o3s-hq-DUm" firstAttribute="top" secondItem="NaA-rN-PLF" secondAttribute="top" constant="516" id="RzD-uF-Qns"/>
                             <constraint firstItem="NaA-rN-PLF" firstAttribute="trailing" secondItem="lW2-p4-5VQ" secondAttribute="trailing" constant="72" id="Vhi-aG-EEt"/>
+                            <constraint firstItem="o3s-hq-DUm" firstAttribute="centerX" secondItem="NaA-rN-PLF" secondAttribute="centerX" id="e4U-DE-Jel"/>
                             <constraint firstItem="lW2-p4-5VQ" firstAttribute="centerX" secondItem="09y-Nb-4pL" secondAttribute="centerX" id="tpv-oS-Pz0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NaA-rN-PLF"/>
@@ -125,6 +137,7 @@
                     <navigationItem key="navigationItem" id="SiB-Kp-DuK"/>
                     <connections>
                         <outlet property="timerButton" destination="lW2-p4-5VQ" id="3TL-Q7-78M"/>
+                        <outlet property="timerLabel" destination="o3s-hq-DUm" id="T3e-D5-DX1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i0E-jB-9id" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
