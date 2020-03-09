@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftKeychainWrapper
+import UIKit
 
 
 class TaskModel {
@@ -25,11 +26,9 @@ class TaskModel {
 	}
 	
 	/// This method retrieves the task information from the keychain.
-	func getTask(_ key: String) -> String {
-		let retrievedString: String? = KeychainWrapper.standard.string(forKey: key)
+	func getTask() -> String {
+		let retrievedString: String? = KeychainWrapper.standard.string(forKey: kUSERTASK)
 		return retrievedString ?? ""
 		
-	}
-	
-	
+	} 
 }

@@ -2,12 +2,14 @@ PODS:
   - AnimatedGradientView (2.1.0)
   - Bartinter (0.0.5)
   - FoldingCell (5.0.2)
+  - RangeUISlider (1.11.0)
   - SwiftKeychainWrapper (3.4.0)
 
 DEPENDENCIES:
   - AnimatedGradientView
   - Bartinter
   - FoldingCell
+  - RangeUISlider (~> 1.5)
   - SwiftKeychainWrapper
 
 SPEC REPOS:
@@ -15,14 +17,16 @@ SPEC REPOS:
     - AnimatedGradientView
     - Bartinter
     - FoldingCell
+    - RangeUISlider
     - SwiftKeychainWrapper
 
 SPEC CHECKSUMS:
   AnimatedGradientView: 12f1cff220a83a1783eca3386d6dbded737d6aeb
   Bartinter: 3c1fc3bcb631b066fdd78f7e01f1635fbafffdea
   FoldingCell: f92eb5fb9842319e7cd08c71533c98408b785099
+  RangeUISlider: 0aea8106f31ebb9f0ab20829b3804f2f3c48a501
   SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
 
-PODFILE CHECKSUM: 1293d913d70ae5525d437189475e54fcfb34dec8
+PODFILE CHECKSUM: 40fd72b81f8a2ce53af701f4ea63166ad3b370f7
 
 COCOAPODS: 1.8.4

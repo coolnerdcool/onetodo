@@ -15,10 +15,11 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	
 	//	IBOutlets
 	@IBOutlet weak var taskTextField: UITextField!
-	@IBOutlet weak var taskLabel: UILabel!
+	
 	
 	//	Properties
-	private let taskPresenter = Presenter()
+	private let taskPresenter = TaskPresenter()
+	var currentTask: String =  ""
 	
 	
 	//	Only call to methods here.
@@ -53,7 +54,6 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	
 	///	Preapare label. Only appears when theres is a task.
 	func setTaskLabel() {
-		taskLabel.textColor = .clear
 		
 	}
 	
@@ -72,7 +72,8 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	func createGradient() {
 		
 		let gradientLayer        = CAGradientLayer()
-		gradientLayer.colors     = [UIColor.red, UIColor.blue]
+//		gradientLayer.colors	 = [UIColor.random, UIColor.random]
+//		gradientLayer.colors     = [UIColor.red, UIColor.green]
 		gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
 		gradientLayer.endPoint   = CGPoint(x: 1.0, y: 1.0)
 		gradientLayer.frame      = CGRect(origin: CGPoint.zero, size: (view?.bounds.size)!)
@@ -88,14 +89,17 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 		//	If textfield empty after return pushed.
 		if textField.text!.isEmpty {
 			task = "Write your task."
-			taskLabel.text = task
 			
 		} else {
 			
-			task = textField.text!
+			//task = textField.text!
+			currentTask = textField.text!
+			//	Save the task entered by user inside keychain.
+			TaskModel().saveTask(currentTask)
+			
 			createTask()	//	store textField(task) in keychain.
 			debugPrint("Textfield:", textField.text)
-			taskLabel.text = ("Your current task:\n'\(task)'\n is the only thing that matters now.")
+			//taskLabel.text = ("Your current task:\n'\(task)'\n is the only thing that matters now.\n (Touch here for more info.)")
 		}
 		
 		self.view.endEditing(true)
