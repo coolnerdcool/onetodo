@@ -6,10 +6,11 @@
 //  Copyright © 2020 Michel Ortega. All rights reserved.
 //
 
+import AnimatedGradientView
 import Foundation
 import UIKit
 
-class TimeSliderModel {
+class TimeSliderModel: UIViewController {
 	//	TODO: Implement logic for the Time Slider.	
 	//	Properties.
 
