@@ -6,16 +6,15 @@
 //  Copyright © 2020 Michel Ortega. All rights reserved.
 //
 
-import AnimatedGradientView
 import Foundation
+import RangeUISlider
 import UIKit
 
-class TimeSliderModel: UIViewController {
-	//	TODO: Implement logic for the Time Slider.	
-	//	Properties.
-
+class TimeSliderModel: UIViewController, RangeUISliderDelegate {
+	//TODO:	-	IMPLEMENT THE LOGIC FOR THE TIME SLIDER.
+	//MARK:	-	PROPERTIES.
 	
-	//	Methods.
+	//MARK:	-	METHODS.
 	
 	/// Make value needed to estimate time for TimeSlider.
 	/// - Parameters:
@@ -26,5 +25,24 @@ class TimeSliderModel: UIViewController {
 		let valueToReturn = right - left
 		
 		return valueToReturn
+	}
+	
+	//	Return the values for both slider points.
+	func rangeChangeFinished(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
+		//	Use those values for getting the estimated timer total value.
+		
+		
+	}
+	
+	/// Get CGFloat values from both slider points and mix' em
+	/// - Parameters:
+	///   - leftValue: CGFloat value from the left side of slider.
+	///   - rightValue: CGFloat value from the right side of slider.
+	func bothSliderValues(leftValue: CGFloat, rightValue: CGFloat) -> CGFloat {
+		
+		let bothValuesToReturn: CGFloat
+		bothValuesToReturn = leftValue + rightValue
+		
+		return bothValuesToReturn
 	}
 }
