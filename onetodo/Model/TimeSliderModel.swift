@@ -39,7 +39,8 @@ class TimeSliderModel: UIViewController, RangeUISliderDelegate {
 	///   - leftValue: CGFloat value from the left side of slider.
 	///   - rightValue: CGFloat value from the right side of slider.
 	func bothSliderValues(leftValue: CGFloat, rightValue: CGFloat) -> CGFloat {
-		
+		//	Get both values from the slider points and usethem
+		//TODO:	-	ACCESS THE LIBRARY
 		let bothValuesToReturn: CGFloat
 		bothValuesToReturn = leftValue + rightValue
 		

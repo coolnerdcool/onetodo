@@ -14,7 +14,7 @@ import UIKit
 
 class TimeViewController: UIViewController, RangeUISliderDelegate {
 	
-	// IBOutlets.
+	//MARK:	-	IBOutlets.
 	@IBOutlet weak var timerButton: UIButton!
 	@IBOutlet weak var timerLabel: UILabel!
 	
@@ -24,8 +24,13 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	
 	private var rangeSlider: RangeUISlider!
 	
+	//MARK:	-	IBActions.
+	
+	//MARK:	-	METHODS.
+	
 	override func viewDidLoad() {
 		
+		//	Only call methods inside of here.
 		super.viewDidLoad()
 		
 		self.setBackBtnCustom()
@@ -38,9 +43,7 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		
 	}
 	
-	//	Functions.
 	func startTimer() {
-		
 		
 	}
 	
@@ -152,6 +155,6 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	@objc func onTapBtn() {
 		self.navigationController?.popViewController(animated: true)
 	}
-	
-	//	IBActions.
 }
+
+//MARK:	-	EXTENSIONS.
