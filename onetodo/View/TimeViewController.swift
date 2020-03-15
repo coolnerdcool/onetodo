@@ -28,10 +28,6 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	
 	//MARK:	-	METHODS.
 	
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-	}
-	
 	override func viewDidLoad() {
 		
 		//	Only call methods inside of here.
