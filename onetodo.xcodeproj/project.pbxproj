@@ -12,6 +12,7 @@
 		5039CA6A23F438E800640835 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039CA6923F438E700640835 /* UIColor+Ext.swift */; };
 		503B1720240010640084E54C /* TimeSliderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B171F240010640084E54C /* TimeSliderHelper.swift */; };
 		503B1722240010A40084E54C /* TimeSliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B1721240010A40084E54C /* TimeSliderModel.swift */; };
+		5048C5B0241EB63E00E5C0FD /* TimerCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5048C5AF241EB63E00E5C0FD /* TimerCounterViewController.swift */; };
 		5050303A2368D7BB00E9F21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505030392368D7BB00E9F21A /* AppDelegate.swift */; };
 		5050303C2368D7BB00E9F21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303B2368D7BB00E9F21A /* SceneDelegate.swift */; };
 		5050303E2368D7BB00E9F21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050303D2368D7BB00E9F21A /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		5039CA6923F438E700640835 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		503B171F240010640084E54C /* TimeSliderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSliderHelper.swift; sourceTree = "<group>"; };
 		503B1721240010A40084E54C /* TimeSliderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSliderModel.swift; sourceTree = "<group>"; };
+		5048C5AF241EB63E00E5C0FD /* TimerCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCounterViewController.swift; sourceTree = "<group>"; };
 		505030362368D7BB00E9F21A /* onetodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onetodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505030392368D7BB00E9F21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5050303B2368D7BB00E9F21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				5050303D2368D7BB00E9F21A /* ViewController.swift */,
 				50B4D98D23CB768D001A1C98 /* TaskDetailViewController.swift */,
 				50EEEB6623E877CF006A9CA6 /* TimeViewController.swift */,
+				5048C5AF241EB63E00E5C0FD /* TimerCounterViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5048C5B0241EB63E00E5C0FD /* TimerCounterViewController.swift in Sources */,
 				50B4D98E23CB768D001A1C98 /* TaskDetailViewController.swift in Sources */,
 				50051ABC23F19332002CA531 /* NavigationBarHelper.swift in Sources */,
 				505772EA23A34E6B0016CF47 /* TaskModel.swift in Sources */,
