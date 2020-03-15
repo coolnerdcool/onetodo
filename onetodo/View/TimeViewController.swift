@@ -44,6 +44,7 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	}
 	
 	func startTimer() {
+		//This must show a new view with the timor counting backwards.
 		
 	}
 	
