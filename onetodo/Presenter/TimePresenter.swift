@@ -28,9 +28,11 @@ class TimePresenter: RangeUISliderDelegate {
 	func createTimerLabel() -> String {
 		//	Interpolate the values and return the string.
 		
-		let leftValue: String
-		let rightValue: String
+		let leftValue: Double
+		let rightValue: Double
 		let stringToReturn = ""
+		
+		
 	
 		return stringToReturn
 	}

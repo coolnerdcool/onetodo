@@ -76,7 +76,6 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		var leftValue: CGFloat	//	Left value point from slider
 		var rightValue: CGFloat
 		
-		
 		timerLabel.textColor = .white
 	}
 	

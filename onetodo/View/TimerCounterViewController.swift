@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class TimerCounterViewController: UIViewController {
-	//TODO:	-	THIS VIEW IS SHOWs AFTER USER TOUCHES BUTTON TO START TIMER.
+	//TODO:	-	THIS VIEW SHOWs AFTER USER TOUCHES BUTTON TO START TIMER.
 	
 	//MARK:	-	IBACTIONS.
 	
