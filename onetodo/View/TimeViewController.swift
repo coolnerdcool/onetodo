@@ -40,7 +40,7 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	}
 	
 	override func viewWillDisappear(_ animated: Bool) {
-		
+		super.viewWillDisappear(true)
 	}
 	
 	func startTimer() {

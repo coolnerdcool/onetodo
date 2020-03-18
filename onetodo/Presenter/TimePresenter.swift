@@ -13,7 +13,7 @@ import UIKit
 
 //	Protocol?
 
-class TimePresenter: RangeUISliderDelegate {
+class TimePresenter: RangeUISlider, RangeUISliderDelegate {
 	
 	//	PROPERTIES.
 	let timeSliderModel = TimeSliderModel()
@@ -32,8 +32,6 @@ class TimePresenter: RangeUISliderDelegate {
 		let rightValue: Double
 		let stringToReturn = ""
 		
-		
-	
 		return stringToReturn
 	}
 	
