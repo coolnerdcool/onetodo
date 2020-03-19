@@ -22,7 +22,7 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	let navigationBarHelper: NavigationBarHelper = NavigationBarHelper()
 	let timerSliderModel = TimeSliderModel()	//	All logic for slider values.
 	
-	private var rangeSlider: RangeUISlider!
+	public var rangeSlider: RangeUISlider!
 	
 	//MARK:	-	IBActions.
 	
