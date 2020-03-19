@@ -14,6 +14,7 @@ class TimeSliderModel: UIViewController, RangeUISliderDelegate {
 	//TODO:	-	IMPLEMENT THE LOGIC FOR THE TIME SLIDER.
 	//MARK:	-	PROPERTIES.
 	
+	
 	//MARK:	-	METHODS.
 	
 	/// Make value needed to estimate time for TimeSlider.
