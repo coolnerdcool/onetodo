@@ -27,10 +27,7 @@ class TimeSliderModel: UIViewController, RangeUISliderDelegate {
 		
 		return valueToReturn
 	}
-	
-	func rangeIsChanging(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
-		
-	}
+
 	
 	//	Return the values for both slider points.
 	func rangeChangeFinished(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
