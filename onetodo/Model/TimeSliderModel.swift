@@ -27,14 +27,6 @@ class TimeSliderModel: UIViewController, RangeUISliderDelegate {
 		
 		return valueToReturn
 	}
-
-	
-	//	Return the values for both slider points.
-	func rangeChangeFinished(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
-		//	Use those values for getting the estimated timer total value.
-		
-		
-	}
 	
 	/// Get CGFloat values from both slider points and mix' em
 	/// - Parameters:
