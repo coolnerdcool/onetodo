@@ -20,8 +20,4 @@ extension UIColor {
 		
 		return UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: 1.0)
 	}
-	
-	func randomGradient() {
-		
-	}
 }
