@@ -11,9 +11,9 @@ import RangeUISlider
 import UIKit
 
 class TimeSliderModel: UIViewController, RangeUISliderDelegate {
+	
 	//TODO:	-	IMPLEMENT THE LOGIC FOR THE TIME SLIDER.
 	//MARK:	-	PROPERTIES.
-	
 	
 	//MARK:	-	METHODS.
 	
@@ -39,5 +39,9 @@ class TimeSliderModel: UIViewController, RangeUISliderDelegate {
 		bothValuesToReturn = leftValue + rightValue
 		
 		return bothValuesToReturn
+	}
+	
+	func rangeChangeFinished(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
+		
 	}
 }
