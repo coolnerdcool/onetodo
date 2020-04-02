@@ -21,10 +21,9 @@ class TimeSliderModel: UIViewController, RangeUISliderDelegate {
 	/// - Parameters:
 	///   - left: Left side value from the slider point.
 	///   - right: Right side value from the slider point.
-	func estimateTime(to left: Double,  to right: Double) -> Double {
+	func estimateTime(to left: CGFloat,  to right: CGFloat) -> CGFloat {
 		//	A - B = C
 		let valueToReturn = right - left
-		
 		return valueToReturn
 	}
 	
@@ -42,6 +41,6 @@ class TimeSliderModel: UIViewController, RangeUISliderDelegate {
 	}
 	
 	func rangeChangeFinished(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
-		
+		estimateTime(to: minValueSelected, to: maxValueSelected)
 	}
 }
