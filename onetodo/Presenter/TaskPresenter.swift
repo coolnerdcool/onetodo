@@ -18,7 +18,7 @@ protocol TaskProtocol: NSObjectProtocol{
 }
 
 // MARK: The methods inside here manage the way the task is stored and used.
-class TaskPresenter: TaskProtocol {
+class TaskPresenter {
 	
 	weak private var view: TaskProtocol?
 	

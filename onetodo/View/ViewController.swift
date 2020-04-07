@@ -11,7 +11,7 @@ import Foundation
 import AnimatedGradientView
 import SwiftKeychainWrapper
 
-class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
+class ViewController: UIViewController, UITextFieldDelegate, TaskProtocol {
 	
 	//	IBOutlets
 	@IBOutlet weak var taskTextField: UITextField!
@@ -25,6 +25,7 @@ class ViewController: UIViewController, UITextFieldDelegate, taskProtocol {
 	//	Only call to methods here.
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
 		self.taskPresenter.attachView(view: self)
 		self.taskTextField.delegate = self
 		self.hideKeyboardWhenTappedAround()
