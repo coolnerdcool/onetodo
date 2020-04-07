@@ -10,7 +10,7 @@ import Foundation
 import SwiftKeychainWrapper
 
 // MARK:  Task Protocol.
-protocol taskProtocol: AnyObject{
+protocol TaskProtocol: NSObjectProtocol{
 	func createTask()
 	func editTask()
 	func deleteTask()
@@ -18,11 +18,11 @@ protocol taskProtocol: AnyObject{
 }
 
 // MARK: The methods inside here manage the way the task is stored and used.
-class TaskPresenter: taskProtocol {
+class TaskPresenter: TaskProtocol {
 	
-	weak private var view: taskProtocol?
+	weak private var view: TaskProtocol?
 	
-	func attachView(view: taskProtocol) {
+	func attachView(view: TaskProtocol) {
 		self.view = view
 	}
 	

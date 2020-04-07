@@ -12,10 +12,25 @@ import RangeUISlider
 import UIKit
 
 //	Protocol?
+protocol TimeProtocol: NSObjectProtocol {
+	func startTime()
+	func stopTime()
+}
 
 class TimePresenter: RangeUISlider, RangeUISliderDelegate {
 	
 	//	PROPERTIES.
+	weak var view: TimeProtocol?
+	
+	func attachView(view: TimeProtocol) {
+		self.view = view
+	}
+	
+	func detachView(view: TimeProtocol) {
+		self.view = nil
+	}
+	
+	
 	let timeSliderModel = TimeSliderModel()
 	var bothSliderValues: CGFloat = 0.0
 	//	IBOUTLETS.
