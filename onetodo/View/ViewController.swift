@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate, TaskProtocol {
 	//	Properties
 	private let taskPresenter = TaskPresenter()
 	var currentTask: String =  ""
+	let defaults =  UserDefaults.standard
 	
 	
 	//	Only call to methods here.
