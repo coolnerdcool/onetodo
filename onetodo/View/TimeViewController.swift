@@ -19,6 +19,8 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	@IBOutlet weak var timerLabel: UILabel!
 	
 	//	Properties.
+	let defaults = UserDefaults.standard
+	
 	let navigationBarHelper: NavigationBarHelper = NavigationBarHelper()
 	let timerSliderModel = TimeSliderModel()	//	All logic for slider values.
 	
