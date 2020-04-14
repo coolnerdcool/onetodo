@@ -24,6 +24,9 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	let navigationBarHelper: NavigationBarHelper = NavigationBarHelper()
 	let timerSliderModel = TimeSliderModel()	//	All logic for slider values.
 	
+	var leftValue: CGFloat  = 0.0	//	Left value point from slider
+	var rightValue: CGFloat = 0.0
+	
 	public var rangeSlider: RangeUISlider!
 	
 	//MARK:	-	IBActions.
@@ -71,16 +74,23 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		timerButton.tintColor = .white
 	}
 	
-	/// Show the value from time slider.
 	func setLabel() {
 		
-		//TODO:	-	Return the sum of both value points from the slider.
-		var leftValue: CGFloat	//	Left value point from slider
-		var rightValue: CGFloat
-		
-		timerLabel.text = "Seconds assigned to timer."
 		timerLabel.font.withSize(7.0)
 		timerLabel.textColor = .white
+		timerLabel.text = "Move the both slider points to choose time."
+		
+	}
+	
+
+	
+	/// Show the value from time slider.
+	func setLabelValues(leftValue: CGFloat, rightValue: CGFloat) {
+		
+		//TODO:	-	Return the sum of both value points from the slider.
+		var bothValues = leftValue + rightValue
+		bothValues = self.leftValue + self.rightValue
+
 	}
 	
 	func setRangeSlider() {
@@ -148,6 +158,10 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	func rangeChangeFinished(minValueSelected: CGFloat, maxValueSelected: CGFloat, slider: RangeUISlider) {
 		print("FINISH min: \(minValueSelected) -  max: \(maxValueSelected) - identifier: \(slider.identifier)")
 		// TODO: Implement slider logic to set a timer.
+		var bothValues = Double(minValueSelected + maxValueSelected)
+		
+		print("THIS ARE BOTH VALUES: \(bothValues)")
+		timerLabel.text = "\(bothValues) seconds for the timer."
 	}
 	
 	//	Changing values from both sides of the slider.
