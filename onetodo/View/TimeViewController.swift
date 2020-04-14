@@ -78,6 +78,8 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 		var leftValue: CGFloat	//	Left value point from slider
 		var rightValue: CGFloat
 		
+		timerLabel.text = "Seconds assigned to timer."
+		timerLabel.font.withSize(7.0)
 		timerLabel.textColor = .white
 	}
 	
