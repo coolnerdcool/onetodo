@@ -14,11 +14,11 @@ import UIKit
 
 class TimeViewController: UIViewController, RangeUISliderDelegate {
 	
-	//MARK:	-	IBOutlets.
+	//MARK:	-	IBOUTLETS.
 	@IBOutlet weak var timerButton: UIButton!
 	@IBOutlet weak var timerLabel: UILabel!
 	
-	//	Properties.
+	//MARK:	-	PROPERTIES.
 	let defaults = UserDefaults.standard
 	
 	let navigationBarHelper: NavigationBarHelper = NavigationBarHelper()
@@ -29,7 +29,14 @@ class TimeViewController: UIViewController, RangeUISliderDelegate {
 	
 	public var rangeSlider: RangeUISlider!
 	
-	//MARK:	-	IBActions.
+	//MARK:	-	IBACTION.
+	@IBAction func timerButtonAction(_ sender: RoundButton) {
+		print("Button pressed")
+		
+	}
+	
+	
+	
 	
 	//MARK:	-	METHODS.
 	

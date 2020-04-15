@@ -125,6 +125,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="timerButtonAction:" destination="qaY-tG-q6K" eventType="touchUpInside" id="Or9-h2-cXO"/>
                                     <segue destination="ZyZ-7R-BMY" kind="presentation" id="8IN-al-F1j"/>
                                 </connections>
                             </button>
